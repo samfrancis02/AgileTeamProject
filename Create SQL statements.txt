@@ -1,0 +1,30 @@
+CREATE TABLE VisaCards (
+    CardNumber VARCHAR(16) PRIMARY KEY,
+    CardHolderName VARCHAR(100) NOT NULL,
+    ExpirationDate CHAR(5) NOT NULL,
+    CVV CHAR(3) NOT NULL,
+    HashedPIN VARCHAR(255) NOT NULL,
+    IssuerBank VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE MasterCards (
+    CardNumber VARCHAR(16) PRIMARY KEY,
+    CardHolderName VARCHAR(100) NOT NULL,
+    ExpirationDate CHAR(5) NOT NULL,
+    CVV CHAR(3) NOT NULL,
+    HashedPIN VARCHAR(255) NOT NULL,
+    IssuerBank VARCHAR(100) NOT NULL
+);
+
+
+SELECT * 
+FROM VisaCards
+WHERE CardNumber = 'NEW_CARD_NUMBER' 
+  AND CardHolderName = 'NEW_CARD_HOLDER_NAME' 
+  AND HashedPIN = 'NEW_HASHED_PIN';
+
+SELECT * 
+FROM MasterCards
+WHERE CardNumber = 'NEW_CARD_NUMBER' 
+  AND CardHolderName = 'NEW_CARD_HOLDER_NAME' 
+  AND HashedPIN = 'NEW_HASHED_PIN';
