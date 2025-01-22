@@ -1,0 +1,45 @@
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\bin\Debug\net8.0-windows\Agile_Project_Atm_machine.exe
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\bin\Debug\net8.0-windows\Agile_Project_Atm_machine.deps.json
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\bin\Debug\net8.0-windows\Agile_Project_Atm_machine.runtimeconfig.json
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\bin\Debug\net8.0-windows\Agile_Project_Atm_machine.dll
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\bin\Debug\net8.0-windows\Agile_Project_Atm_machine.pdb
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.Form1.resources
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.PinForm.resources
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.csproj.GenerateResource.cache
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.AssemblyInfoInputs.cache
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.AssemblyInfo.cs
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.csproj.CoreCompileInputs.cache
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.dll
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\refint\Agile_Project_Atm_machine.dll
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.pdb
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.genruntimeconfig.cache
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\ref\Agile_Project_Atm_machine.dll
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.TransactionMenu.resources
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.AccountSelection.resources
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.Acknowledgment.resources
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.Confirm.resources
+C:\Users\ISRAEL FARAYOLA\source\repos\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.FastCash.resources
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\bin\Debug\net8.0-windows\Agile_Project_Atm_machine.exe
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\bin\Debug\net8.0-windows\Agile_Project_Atm_machine.dll
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.AccountSelection.resources
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.Acknowledgment.resources
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.Confirm.resources
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.FastCash.resources
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.Form1.resources
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.PinForm.resources
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.TransactionMenu.resources
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.csproj.GenerateResource.cache
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.AssemblyInfoInputs.cache
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.AssemblyInfo.cs
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.csproj.CoreCompileInputs.cache
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.sourcelink.json
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.dll
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\refint\Agile_Project_Atm_machine.dll
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.pdb
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\bin\Debug\net8.0-windows\Agile_Project_Atm_machine.deps.json
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\bin\Debug\net8.0-windows\Agile_Project_Atm_machine.runtimeconfig.json
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\bin\Debug\net8.0-windows\Agile_Project_Atm_machine.pdb
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\Agile_Project_Atm_machine.genruntimeconfig.cache
+C:\Users\Hakan\Source\Repos\AgileTeamProject\Agile_Project_Atm_machine\Agile_Project_Atm_machine\obj\Debug\net8.0-windows\ref\Agile_Project_Atm_machine.dll
