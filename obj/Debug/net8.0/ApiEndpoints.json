@@ -1,0 +1,82 @@
+[
+  {
+    "ContainingType": "atmapp.Controllers.atmAPIController",
+    "Method": "Authenticate",
+    "RelativePath": "api/atmAPI/authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "atmapp.Controllers.CardAuthRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "atmapp.Controllers.atmAPIController",
+    "Method": "GetBalance",
+    "RelativePath": "api/atmAPI/balance/{cardNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cardNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "atmapp.Controllers.atmAPIController",
+    "Method": "GenerateReceipt",
+    "RelativePath": "api/atmAPI/generate-receipt/{transactionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "atmapp.Controllers.atmAPIController",
+    "Method": "ProcessTransaction",
+    "RelativePath": "api/atmAPI/process-transaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "atmapp.Controllers.TransactionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "atmapp.Controllers.atmAPIController",
+    "Method": "GetTransactionHistory",
+    "RelativePath": "api/atmAPI/transaction-history/{cardNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cardNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

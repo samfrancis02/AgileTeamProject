@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\daniy\\source\\repos\\atmapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|c:\\users\\daniy\\source\\repos\\atmapp\\data\\transactiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|solutionrelative:data\\transactiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|c:\\users\\daniy\\source\\repos\\atmapp\\controllers\\atmapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|solutionrelative:controllers\\atmapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|c:\\users\\daniy\\source\\repos\\atmapp\\models\\mastercards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|solutionrelative:models\\mastercards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|c:\\users\\daniy\\source\\repos\\atmapp\\models\\visacard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|solutionrelative:models\\visacard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|c:\\users\\daniy\\source\\repos\\atmapp\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\source\\repos\\atmapp\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\daniy\\source\\repos\\atmapp\\Models\\Transaction.cs",
+              "RelativeToolTip": "Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T16:26:30.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\source\\repos\\atmapp\\Data\\TransactionDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\TransactionDbContext.cs",
+              "ToolTip": "C:\\Users\\daniy\\source\\repos\\atmapp\\Data\\TransactionDbContext.cs",
+              "RelativeToolTip": "Data\\TransactionDbContext.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T01:39:20.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MasterCards.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\source\\repos\\atmapp\\Models\\MasterCards.cs",
+              "RelativeDocumentMoniker": "Models\\MasterCards.cs",
+              "ToolTip": "C:\\Users\\daniy\\source\\repos\\atmapp\\Models\\MasterCards.cs",
+              "RelativeToolTip": "Models\\MasterCards.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T01:17:44.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VisaCard.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\source\\repos\\atmapp\\Models\\VisaCard.cs",
+              "RelativeDocumentMoniker": "Models\\VisaCard.cs",
+              "ToolTip": "C:\\Users\\daniy\\source\\repos\\atmapp\\Models\\VisaCard.cs",
+              "RelativeToolTip": "Models\\VisaCard.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T01:16:49.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "atmAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\source\\repos\\atmapp\\Controllers\\atmAPIController.cs",
+              "RelativeDocumentMoniker": "Controllers\\atmAPIController.cs",
+              "ToolTip": "C:\\Users\\daniy\\source\\repos\\atmapp\\Controllers\\atmAPIController.cs",
+              "RelativeToolTip": "Controllers\\atmAPIController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAA3wAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T00:50:33.522Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

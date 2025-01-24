@@ -1,0 +1,6 @@
+@atmapp_HostAddress = http://localhost:5037
+
+GET {{atmapp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
