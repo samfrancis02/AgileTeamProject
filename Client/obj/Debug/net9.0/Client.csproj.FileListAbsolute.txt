@@ -13,3 +13,6 @@
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Client/obj/Debug/net9.0/Client.pdb
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Client/obj/Debug/net9.0/Client.genruntimeconfig.cache
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Client/obj/Debug/net9.0/ref/Client.dll
+/Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Client/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Client/obj/Debug/net9.0/Client.csproj.AssemblyReference.cache
+/Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Client/obj/Debug/net9.0/Client.csproj.Up2Date
