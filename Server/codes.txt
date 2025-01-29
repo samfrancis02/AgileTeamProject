@@ -1,0 +1,12 @@
+505: Intial messages, client sends details for server to use in constructor
+506: Final message, server deletes client from current client list
+
+Client messages
+507: Transaction request Message format will be "507, card_no, pin, amount request"
+    Will be sent from ATM -> Server -> Network client
+508: Transaction Accepted Message
+509: Insufficent Balance
+510: Balance enquiry Message format will be "510, card_no, pin"
+511: Incorrect pin
+512: Network doesnt exist on the server
+513: Null reference error
