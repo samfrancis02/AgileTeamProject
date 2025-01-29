@@ -1,0 +1,1 @@
+Hashed pin + card number for authentication
