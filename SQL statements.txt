@@ -8,7 +8,7 @@ VALUES
 
 INSERT INTO MasterCards (CardNumber, CardHolderName, ExpirationDate, CVV, HashedPIN, IssuerBank, AccountBalance)
 VALUES 
-('5555555555554444', 'Frank Harris', '01/27', '303', 'hashed_pin_6', 'Capital One', 7800.30),
+('5555555555554444', 'Frank Harris', '01/27', '303', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'Capital One', 7800.30),
 ('5105105105105100', 'Grace Miller', '06/26', '404', 'hashed_pin_7', 'HSBC', 450.60),
 ('5200828282828210', 'Henry Wilson', '03/25', '505', 'hashed_pin_8', 'Barclays', 1000.00),
 ('5105105105105106', 'Ivy Martinez', '07/28', '606', 'hashed_pin_9', 'Santander', 3200.00),
