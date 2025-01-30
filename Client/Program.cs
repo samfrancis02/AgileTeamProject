@@ -58,7 +58,38 @@ class ClientConnections
         this.client_name = client_name;
         this.client_acc = client_acc;
         this.type = type;
-        this.dbConnector = dbConnector; // Store the database connection
+        this.dbConnector = dbConnector;
+
+        if (IsCardBlocked(client_acc.card_number))
+        {
+            Console.WriteLine("[Client] Card is blocked. Connection terminated.");
+            Environment.Exit(0);
+        }
+    }
+    private bool IsCardBlocked(string cardNumber)
+    {
+        MySqlConnection connection = dbConnector.GetConnection();
+        if (connection == null || connection.State != System.Data.ConnectionState.Open)
+        {
+            Console.WriteLine("Database connection is not open.");
+            return false;
+        }
+
+        string query = "SELECT COUNT(*) FROM BlockedCards WHERE CardNumber = @CardNumber";
+        try
+        {
+            using (MySqlCommand cmd = new MySqlCommand(query, connection))
+            {
+                cmd.Parameters.AddWithValue("@CardNumber", cardNumber);
+                int count = Convert.ToInt32(cmd.ExecuteScalar());
+                return count > 0;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error checking blocked card: {ex.Message}");
+            return false;
+        }
     }
     //class methods GENERAL FUNCTIONS
     public TcpClient clientConnect(String server)
@@ -376,11 +407,11 @@ class testingFuncs
         if (test.GetTcpClient() != null && test.GetTcpClient().Connected)
         {
             test.getBalance(test_acc.card_number, test_acc.pin, "mastercards");
-            //while (true)
-            //{
-            //    Console.WriteLine("Running");
-            //    Thread.Sleep(100000000);
-            //}
+            while (true)
+            {
+                Console.WriteLine("Running");
+                Thread.Sleep(100000000);
+            }
         }
         else
         {
@@ -483,5 +514,4 @@ class Request
         this.amount = "";
         this.response = false;
     }
-
 }
