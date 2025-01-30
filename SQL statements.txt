@@ -39,3 +39,15 @@ BEGIN
         AccountBalance DOUBLE NOT NULL
     );
 END
+
+INSERT INTO BlockedCards (CardNumber, CardHolderName) VALUES
+('4111222233334444', 'John Doe'),
+('5500112233445566', 'Jane Smith'),
+('4000123412341234', 'Michael Johnson'),
+('5100987612345678', 'Emily Davis'),
+('6011000990139424', 'David Wilson'),
+('4532756279624064', 'Sophia Martinez'),
+('5204161234567890', 'James Anderson'),
+('4024007103939509', 'Olivia Thomas'),
+('371449635398431',  'Isabella White'),
+('6011556448578940', 'William Brown');
