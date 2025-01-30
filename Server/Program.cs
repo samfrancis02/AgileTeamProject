@@ -109,12 +109,18 @@ class network_server{
         }
     }
 
+    private void log(Request request){
+        string logging = DateAndTime.Now + " " + request.type + " " + request.card_number + " " + request.network + " " + request.amount + "\n";
+        File.AppendAllText("log.txt", logging);
+    }
+
     //function to send a message to a client
     void send_request(Request request, NetworkStream stream){
          Console.WriteLine("[Client] Sending {0} request", request.type);
         string jsonString = JsonConvert.SerializeObject(request);
         jsonString += "<|EOM|>";
         Console.WriteLine(jsonString);
+        log(request)
         byte[] jsonBytes = Encoding.UTF8.GetBytes(jsonString);
         stream.Write(jsonBytes, 0, jsonBytes.Length);
     }
