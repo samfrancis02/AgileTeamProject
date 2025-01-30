@@ -20,12 +20,21 @@ enum client_type{
 }
 
 class ClientConnections{
+    public ClientConnections(string network, string cardNumber, string pin) {
+    this.network = network;
+    this.card_number = cardNumber;
+    this.pin = pin;
+}
     public static void Main(){
-        testingFuncs test = new();
-        test.atmTests();
+        stressTestConnections();
+        // ClientConnections client = new ClientConnections("Visa", "4111111111111111", "1234");
+        // client.clientConnect();
     }
     //decleration and constructor
     private string client_name;
+    private string card_number;
+    private string pin;
+    private string network;
     private TcpClient client;
     private NetworkStream stream;
 
@@ -37,22 +46,58 @@ class ClientConnections{
         this.client_name = name;
     }
     
-    public ClientConnections(string client_name){
-        this.client_name = client_name;
-    }
+
     //class methods GENERAL FUNCTIONS
-    public void clientConnect(String server){
+    public void clientConnect(){
         try{
             Int32 port = 6667;
-            this.client = new TcpClient("127.0.0.1", port);
-            this.stream = client.GetStream();
+            client = new TcpClient("127.0.0.1", port);
+            stream = client.GetStream();
             Console.WriteLine("[Client] Connected to server");
+            Thread requestThread = new Thread(sendRandomRequest);
+            requestThread.Start();
+            
             handleServerData();
         }
         catch(Exception e){
             Console.WriteLine("[Client] Unable to connect:", e.Message);
             Thread.Sleep(1000);
-            clientConnect("");
+            clientConnect();
+        }
+    }
+    public static void stressTestConnections(){
+            string[] visaCards = {
+            "4111111111111111",
+            "4111222233334444",
+            "4111333344445555",
+            "4111444455556666",
+            "4111555566667777"
+            };
+        
+        string[] mcCards = {
+            "5105105105105100",
+            "5105105105105106",
+            "5200202020202020",
+            "5200828282828210",
+            "5555555555554444"
+            };
+
+        string[] pins = {"1234", "2345", "3456", "4567", "5678"};
+        
+        for (int i = 0; i < 4; i++){
+            Thread clientThread = new Thread(() => {
+                ClientConnections clientConnection = new ClientConnections("Visa", visaCards[i], pins[i]);
+                clientConnection.clientConnect();
+            });
+            clientThread.Start();
+        }
+
+        for (int i = 0; i < 4; i++){
+            Thread clientThread = new Thread(() => {
+                ClientConnections clientConnection = new ClientConnections("Mastercard", mcCards[i], pins[i]);
+                clientConnection.clientConnect();
+            });
+            clientThread.Start();
         }
     }
 
@@ -82,7 +127,7 @@ class ClientConnections{
 
                     }
                     if(request != null){
-                        handle_request(request);
+                        _ = Task.Run(() => handle_request(request));
                     }
                     else{
                         Console.WriteLine("Request is null");
@@ -93,7 +138,32 @@ class ClientConnections{
         }
         catch(Exception e){
             Console.WriteLine("[Client] Unable to read data from server: " + e.Message);
-            this.clientConnect("");
+            this.clientConnect();
+        }
+    }
+
+    private void sendRandomRequest(){
+        Random random = new Random();
+        while(client.Connected){
+            int delay = random.Next(15000,25000);
+            Thread.Sleep(delay);
+            Request request = new Request();
+            if(random.Next(2) == 0){
+                request.type = "BalanceEnq";
+            }
+            else{
+                request.type = "Withdrawl";
+                request.amount = random.Next(100, 1200).ToString();
+            }
+            request.card_number = this.card_number;
+            request.pin = this.pin;
+            request.network = this.network;
+            try{
+                send_request(request, stream);
+            }
+            catch(Exception e){
+                Console.WriteLine("[Client] Unable to send request: " + e.Message);
+            }
         }
     }
     public TcpClient GetTcpClient(){
@@ -104,10 +174,11 @@ class ClientConnections{
         
         if(request.type == "Hello"){
             Console.WriteLine("[Client] Hello message received");
+            Console.WriteLine($"Card_no: {this.card_number}");
             response.type = "Hello.ATM";
-            response.network = "Visa";
-            response.card_number = "123456789";
-            response.pin = "1234";
+            response.network = this.network;
+            response.card_number = this.card_number;
+            response.pin = this.pin;
             send_request(response, stream);
             response = new Request();
         }
@@ -115,20 +186,25 @@ class ClientConnections{
             Console.WriteLine("[Client] Balance Enquiry response received");
             Console.WriteLine("Balance: " + request.amount);
         }
-        else if(request.type == "Withdrawl"){
+        else if(request.type == "Withdrawl.APPROVED"){
             Console.WriteLine("[Client] Withdrawl response recieved");
-            Console.WriteLine("Status: " + request.response);
+            Console.WriteLine("Status: APPROVED");
         }
-        else if(request.type == "Test"){
-            response.type = "BalanceEnq";
-            response.card_number = "123456789";
-            response.pin = "1234";
-            response.network = "Visa";
-            response.amount = "0";
+        else if(request.type == "Withdrawl.DECLINED"){
+            Console.WriteLine("[Client] Withdrawl response recieved");
+            Console.WriteLine("Status: DECLINED");
+        }
+        else if(request.type == "test"){
+            response.type = "Withdrawl";
+            response.card_number = this.card_number;
+            response.pin = this.pin;
+            response.network = this.network;
+            response.amount = "100";
             send_request(response, stream);
         }
         else{
             Console.WriteLine("[Client] Request type not recognized");
+            Console.WriteLine("Type: " + request.type);
         }
     }
 
@@ -156,19 +232,19 @@ class ClientConnections{
 //testing out visa and MC clients
 class testingFuncs{
     public void atmTests(){
-        ClientConnections test = new("Visa");
-        test.clientConnect("127.0.0.1");
+        // ClientConnections test = new("Visa");
+        // test.clientConnect("127.0.0.1");
 
-        if(test.GetTcpClient() != null && test.GetTcpClient().Connected){
-            while(true){
-                Console.WriteLine("Running");
-                Thread.Sleep(100000000);
-                test.ATM_send_balance_enq("123456789", "1234", "Visa");
-            }
-        }
-        else{
-            Console.WriteLine("Client not connected");
-        }
+        // if(test.GetTcpClient() != null && test.GetTcpClient().Connected){
+        //     while(true){
+        //         Console.WriteLine("Running");
+        //         Thread.Sleep(100000000);
+        //         test.ATM_send_balance_enq("123456789", "1234", "Visa");
+        //     }
+        // }
+        // else{
+        //     Console.WriteLine("Client not connected");
+        // }
 
     }
 }
