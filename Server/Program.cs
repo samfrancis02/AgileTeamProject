@@ -50,6 +50,7 @@ class network_server{
             //loop around listening for new clients
             while(true){
                 TcpClient client = await sim_server.AcceptTcpClientAsync();
+                //aync task to handle intial request
                 _ = Task.Run(() => handle_intial_request(client));
             }
         }
@@ -97,6 +98,7 @@ class network_server{
         }
         else if(request.type == "Hello.ATM"){
             Console.WriteLine("[Server]: User Connected: {0}", request.type);
+            Console.WriteLine($"Card Number: {request.card_number}, Pin: {request.pin}, Network: {request.network}");
             ATMClient atm_client = new ATMClient(request.card_number, request.pin, request.network, client, stream);
             ATMClients.Add(atm_client);
             _ = Task.Run(() => handle_atm_client(atm_client, stream));
@@ -109,18 +111,12 @@ class network_server{
         }
     }
 
-    private void log(Request request){
-        string logging = DateAndTime.Now + " " + request.type + " " + request.card_number + " " + request.network + " " + request.amount + "\n";
-        File.AppendAllText("log.txt", logging);
-    }
-
     //function to send a message to a client
     void send_request(Request request, NetworkStream stream){
          Console.WriteLine("[Client] Sending {0} request", request.type);
         string jsonString = JsonConvert.SerializeObject(request);
         jsonString += "<|EOM|>";
-        Console.WriteLine(jsonString);
-        log(request)
+        log(request);
         byte[] jsonBytes = Encoding.UTF8.GetBytes(jsonString);
         stream.Write(jsonBytes, 0, jsonBytes.Length);
     }
@@ -130,8 +126,7 @@ class network_server{
         Byte[] buffer = new Byte[256];
         string data = null;
         int i;
-        Console.WriteLine("Succesffuly determined client type");
-   
+        Console.WriteLine("Network Client {0} Connected", client.getNetworkName());
         try{
         while((i = stream.Read(buffer, 0, buffer.Length)) != 0){
                 string json = Encoding.UTF8.GetString(buffer, 0, i);
@@ -173,41 +168,46 @@ class network_server{
     }
     //Function that takes data recived from a card network, and sends a relevant response/request to an ATM client
     public void handle_network_data(Request request, NetworkClient client, NetworkStream stream){
-        if(request.type == "Withdrawl.RESPONSE"){
+        if(request.type == "Withdrawl.APPROVED"){
             Console.WriteLine("[Server] Network: Withdrawl Response, sending to appropriate ATM");
+            int index = ATMClients.FindIndex(x => x.getCardNumber() == request.card_number);
+            if(index != -1){
+                send_request(request, ATMClients[index].stream);
+            }
+            else{
+                Console.WriteLine("ATM not found");
         }
-            // for(int j = 0; j < ATMClients.Length; j++){
-            //     if(ATMClients[j].getCardNumber() == request.card_number){
-            //         send_request(request, ATMClients[j].stream);
-            //     }
-            //     else{
-            //         Console.WriteLine("Card not found");
-            //     }
-            // }
-        
-        //     else{
-        //         Console.WriteLine("Card not found");
-        //     }
-        // }
-        if(request.type == "BalanceEnq.RESPONSE"){
+        }
+        else if(request.type == "Withdrawl.DECLINED"){
+            Console.WriteLine("[Server] Network: Withdrawl Response, sending to appropriate ATM");
+            int index = ATMClients.FindIndex(x => x.getCardNumber() == request.card_number);
+            if(index != -1){
+                send_request(request, ATMClients[index].stream);
+            }
+            else{
+                Console.WriteLine("atm not found");
+            }
+        }
+        else if(request.type == "BalanceEnq.RESPONSE"){
             Console.WriteLine("[Server] Network: BalanceEnq Response, sending to appropriate ATM");
             int index = ATMClients.FindIndex(x => x.getCardNumber() == request.card_number);
             if(index != -1){
                 send_request(request, ATMClients[index].stream);
             }
             else{
-                Console.WriteLine("Card network not found");
+                Console.WriteLine("atm not found");
             }
-        // }
         }
     
     }
 
+    private void log(Request request){
+        string logging = DateAndTime.Now + " " + request.type + " " + request.card_number + " " + request.network + " " + request.amount + "\n";
+        File.AppendAllText("log.txt", logging);
+    }
+
     //function that handles ATM clients
     private void handle_atm_client(ATMClient client, NetworkStream stream){
-        Request new_request = new Request();
-        new_request.type = "Test";
-        send_request(new_request, stream);
         Byte[] buffer = new Byte[256];
         string data = null;
         int i;
@@ -258,33 +258,23 @@ class network_server{
         Console.WriteLine("ATMRequest type: {0}", request.type);
         if(request.type == "Withdrawl"){
             Console.WriteLine("[Server] ATM: Withdrawl Requested");
-            // for(int j = 0; j < NetworkClients.Length; j++){
-            //     if(NetworkClients[j].getNetworkName() == request.network){
-            //         send_request(request, NetworkClients[j].stream);
-            //     }
-            //     else{
-            //         Console.WriteLine("Card network not found");
-            //     }
-            // }
-        }
-        if(request.type == "BalanceEnq"){
-            Console.WriteLine("[Server] ATM: BalanceEnq Requested on {0}", request.network);
-            int index = NetworkClients.FindIndex(x => x.getNetworkName() == request.network);
+            int index = NetworkClients.FindIndex(x => x.getNetworkName().ToLower() == request.network.ToLower());
             if(index != -1){
                 send_request(request, NetworkClients[index].stream);
             }
             else{
                 Console.WriteLine("Card network not found");
             }
-            // for(int j = 0; j < NetworkClients.Length; j++){
-            //     if(NetworkClients[j].getNetworkName() == request.network){
-            //         Console.WriteLine("Card network found, Balance Requested: {0}", request.amount);
-            //         send_request(request, NetworkClients[j].stream);
-            //     }
-            //     else{
-            //         Console.WriteLine("Card network not found");
-            //     }
-            // }
+        }
+        if(request.type == "BalanceEnq"){
+            Console.WriteLine("[Server] ATM: BalanceEnq Requested on {0}", request.network);
+            int index = NetworkClients.FindIndex(x => x.getNetworkName().ToLower() == request.network.ToLower());
+            if(index != -1){
+                send_request(request, NetworkClients[index].stream);
+            }
+            else{
+                Console.WriteLine("Card network not found");
+            }
         }
     }
 }
