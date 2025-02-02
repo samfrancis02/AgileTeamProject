@@ -93,8 +93,6 @@ class network_server{
             NetworkClient network_client = new NetworkClient(request.network, client, stream);
             NetworkClients.Add(network_client);
             _ = Task.Run(() => handle_network_client(network_client, stream));
-            // Console.WriteLine("[Server]: User Connected: {0}", request.network);
-            // handle_network_client(network_client, stream);
         }
         else if(request.type == "Hello.ATM"){
             Console.WriteLine("[Server]: User Connected: {0}", request.type);
@@ -102,8 +100,6 @@ class network_server{
             ATMClient atm_client = new ATMClient(request.card_number, request.pin, request.network, client, stream);
             ATMClients.Add(atm_client);
             _ = Task.Run(() => handle_atm_client(atm_client, stream));
-            
-            // handle_atm_client(atm_client, stream);
         }
         else{
             Console.WriteLine("Client type not found");
@@ -113,7 +109,7 @@ class network_server{
 
     //function to send a message to a client
     void send_request(Request request, NetworkStream stream){
-         Console.WriteLine("[Client] Sending {0} request", request.type);
+         Console.WriteLine("[Server] Sending {0} request", request.type);
         string jsonString = JsonConvert.SerializeObject(request);
         jsonString += "<|EOM|>";
         log(request);
@@ -208,6 +204,9 @@ class network_server{
 
     //function that handles ATM clients
     private void handle_atm_client(ATMClient client, NetworkStream stream){
+        Request request1 = new Request();
+        request1.type = "test";
+        send_request(request1, stream);
         Byte[] buffer = new Byte[256];
         string data = null;
         int i;

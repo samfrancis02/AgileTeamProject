@@ -26,9 +26,9 @@ class ClientConnections{
     this.pin = pin;
 }
     public static void Main(){
-        stressTestConnections();
-        // ClientConnections client = new ClientConnections("Visa", "4111111111111111", "1234");
-        // client.clientConnect();
+        //stressTestConnections();
+        ClientConnections client = new ClientConnections("Visa", "4111111111111111", "1234");
+        client.clientConnect();
     }
     //decleration and constructor
     private string client_name;
@@ -67,7 +67,7 @@ class ClientConnections{
     }
     public static void stressTestConnections(){
             string[] visaCards = {
-            "4111111111111111",
+            "4111111111111110",
             "4111222233334444",
             "4111333344445555",
             "4111444455556666",
@@ -153,7 +153,7 @@ class ClientConnections{
             }
             else{
                 request.type = "Withdrawl";
-                request.amount = random.Next(100, 1200).ToString();
+                request.amount = random.Next(50, 1000).ToString();
             }
             request.card_number = this.card_number;
             request.pin = this.pin;
@@ -199,7 +199,7 @@ class ClientConnections{
             response.card_number = this.card_number;
             response.pin = this.pin;
             response.network = this.network;
-            response.amount = "100";
+            response.amount = "1010";
             send_request(response, stream);
         }
         else{
