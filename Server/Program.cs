@@ -11,9 +11,13 @@ using System.Text;
 using System.Threading;
 using Microsoft.VisualBasic;
 using System.Text.Json;
+<<<<<<< HEAD
 using Newtonsoft.Json;
 using Newtonsoft.Json.Bson;
 using System.Threading.Tasks; //Dependancy!! use "dotnet add package Newtonsoft.Json --version 13.0.3" to install
+=======
+using Newtonsoft.Json; //Dependancy!! use "dotnet add package Newtonsoft.Json --version 13.0.3" to install
+>>>>>>> main
 
 
 enum client_type{
@@ -22,6 +26,7 @@ enum client_type{
     }  
 
 class network_server{
+<<<<<<< HEAD
     public static async Task Main(){
         network_server myServer = new network_server();
         await myServer.Start_Server();
@@ -29,10 +34,19 @@ class network_server{
     private TcpListener sim_server;
     public List <ATMClient> ATMClients;
     public List <NetworkClient> NetworkClients;
+=======
+    public static void Main(){
+        testingFuncs test = new();
+        test.clientTests();
+    }
+    public ATMClient[] ATMClients;
+    public NetworkClient[] NetworkClients;
+>>>>>>> main
     private X509Certificate cert; //Will be used when implementing security features
     
     public network_server(){
         //arrays to store current clients in
+<<<<<<< HEAD
         ATMClients = new List<ATMClient>();
         NetworkClients = new List<NetworkClient>();
     }    
@@ -105,16 +119,96 @@ class network_server{
             Console.WriteLine("Client type not found");
             client.Close();
         }
+=======
+        ATMClients = new ATMClient[10];
+        NetworkClients = new NetworkClient[10];
+    }
+    public void Start_Server(){
+        TcpListener sim_server = null;
+        
+        try{
+            //Setting port to 6667 and using localhost
+            Int32 port = 6667;
+            IPAddress local_ip = IPAddress.Any;
+            sim_server = new TcpListener(local_ip, port);
+
+            //Start listening for requests
+            sim_server.Start();
+
+            //Buffer for incoming data
+            Byte[] buffer = new Byte[256];
+            String data = null;
+            int i;
+            //loop around listening for new clients
+            while(true){
+                Console.WriteLine("[Server] Listening on port 6667...");
+                
+                //Accept incoming request
+                using TcpClient client = sim_server.AcceptTcpClient();
+                
+                Console.WriteLine("[Server]: User Connected");
+                
+                //handle incoming data, reset data varible for use
+                data = null;
+                NetworkStream stream = client.GetStream();
+                
+                //Sends an intial request to client for details
+                Request new_request = new Request();
+                new_request.type = "Hello";
+                send_request(new_request, stream);
+
+                //reads incoming data
+                i = stream.Read(buffer, 0, buffer.Length);
+                Request request = null;
+                //converts incoming data to a request object
+                string json = Encoding.UTF8.GetString(buffer, 0, i);
+                request = JsonConvert.DeserializeObject<Request>(json.TrimEnd('\0'));
+                Console.WriteLine("[Server] Request Info: {0}", request.type);
+
+                //determines client type based off intial request
+                if(request.type.Length > 1){
+                    if(request.type == "Hello.NETWORK"){
+                        NetworkClient network_client = new NetworkClient(request.network, client, stream);
+                        NetworkClients.Append(network_client);
+                        this.handle_network_client(network_client, stream);
+                    }
+                    else if(request.type == "Hello.ATM"){
+                        ATMClient atm_client = new ATMClient(request.card_number, request.pin, request.network, client, stream);
+                        ATMClients.Append(atm_client);
+                        this.handle_atm_client(atm_client, stream);
+                    }
+                    else{
+                        Console.WriteLine("Client type not found");
+                        client.Close();
+                    }
+                    Console.WriteLine("[Server] Request Info: {0}", request.type);
+                }
+                else{
+                    client.Close();
+                }
+            }
+        }
+
+        catch(SocketException e){
+            Console.WriteLine("Sokcet Exception: {0}: ", e);
+        } 
+>>>>>>> main
     }
 
     //function to send a message to a client
     void send_request(Request request, NetworkStream stream){
+<<<<<<< HEAD
          Console.WriteLine("[Server] Sending {0} request", request.type);
         string jsonString = JsonConvert.SerializeObject(request);
         jsonString += "<|EOM|>";
         log(request);
         byte[] jsonBytes = Encoding.UTF8.GetBytes(jsonString);
         stream.Write(jsonBytes, 0, jsonBytes.Length);
+=======
+        Console.WriteLine("[Server] Sending Request");
+        byte[] msg = System.Text.Json.JsonSerializer.SerializeToUtf8Bytes(request);
+        stream.Write(msg, 0, msg.Length);
+>>>>>>> main
     }
 
     //function to handle network clients
@@ -122,6 +216,7 @@ class network_server{
         Byte[] buffer = new Byte[256];
         string data = null;
         int i;
+<<<<<<< HEAD
         Console.WriteLine("Network Client {0} Connected", client.getNetworkName());
         try{
         while((i = stream.Read(buffer, 0, buffer.Length)) != 0){
@@ -133,6 +228,14 @@ class network_server{
                 else{
                     Console.WriteLine("EOM not found");
                 }
+=======
+        Console.WriteLine("Succesffuly determined client type");
+   
+        try{
+        while((i = stream.Read(buffer, 0, buffer.Length)) != 0){
+                string json = Encoding.UTF8.GetString(buffer, 0, i);
+                
+>>>>>>> main
                 if(i > 0){
                     Console.WriteLine("Data received{0}", json);
                     Request request = null;
@@ -143,7 +246,12 @@ class network_server{
                         Console.WriteLine("Exception: {0}", e);
                     }
                     if(request != null){
+<<<<<<< HEAD
                         handle_network_data(request, client, stream);
+=======
+                        handle_ATM_data(request);
+                        //handle_network_data(request, client, stream);
+>>>>>>> main
                     }
                     else{
                         Console.WriteLine("Request is null");
@@ -164,6 +272,7 @@ class network_server{
     }
     //Function that takes data recived from a card network, and sends a relevant response/request to an ATM client
     public void handle_network_data(Request request, NetworkClient client, NetworkStream stream){
+<<<<<<< HEAD
         if(request.type == "Withdrawl.APPROVED"){
             Console.WriteLine("[Server] Network: Withdrawl Response, sending to appropriate ATM");
             int index = ATMClients.FindIndex(x => x.getCardNumber() == request.card_number);
@@ -200,18 +309,48 @@ class network_server{
     private void log(Request request){
         string logging = DateAndTime.Now + " " + request.type + " " + request.card_number + " " + request.network + " " + request.amount + "\n";
         File.AppendAllText("log.txt", logging);
+=======
+        if(request.type == "Withdrawl"){
+            Console.WriteLine("[Server] Network: Withdrawl Requested");
+            for(int j = 0; j < ATMClients.Length; j++){
+                if(ATMClients[j].getCardNumber() == request.card_number){
+                    send_request(request, ATMClients[j].stream);
+                }
+                else{
+                    Console.WriteLine("Card not found");
+                }
+            }
+        }
+        if(request.type == "BalanceEnq"){
+            Console.WriteLine("[Server] Network: BalanceEnq Requested");
+            for(int j = 0; j < ATMClients.Length; j++){
+                if(ATMClients[j].getCardNumber() == request.card_number){
+                    Console.WriteLine("Card found, Balance Requested: {0}", request.amount);
+                    send_request(request, ATMClients[j].stream);
+                }
+                else{
+                    Console.WriteLine("Card not found");
+                }
+            }
+        }
+>>>>>>> main
     }
 
     //function that handles ATM clients
     private void handle_atm_client(ATMClient client, NetworkStream stream){
+<<<<<<< HEAD
         Request request1 = new Request();
         request1.type = "test";
         send_request(request1, stream);
+=======
+        
+>>>>>>> main
         Byte[] buffer = new Byte[256];
         string data = null;
         int i;
         try{
             while((i = stream.Read(buffer, 0, buffer.Length)) != 0){
+<<<<<<< HEAD
                     Console.WriteLine("Data received");
                     string json = Encoding.UTF8.GetString(buffer, 0, i);
                     //checks for EOM and discards everything after that point
@@ -222,6 +361,9 @@ class network_server{
                     else{
                         Console.WriteLine("EOM not found");
                     }
+=======
+                    string json = Encoding.UTF8.GetString(buffer, 0, i);
+>>>>>>> main
                     if(i > 0){
                         Console.WriteLine("Data received{0}", json);
                         Request request = null;
@@ -254,6 +396,7 @@ class network_server{
     
     //function that takes data recived from an ATM client, and sends a relevant response/request to a card network
     private void handle_ATM_data(Request request){
+<<<<<<< HEAD
         Console.WriteLine("ATMRequest type: {0}", request.type);
         if(request.type == "Withdrawl"){
             Console.WriteLine("[Server] ATM: Withdrawl Requested");
@@ -273,6 +416,29 @@ class network_server{
             }
             else{
                 Console.WriteLine("Card network not found");
+=======
+        if(request.type == "Withdrawl"){
+            Console.WriteLine("[Server] ATM: Withdrawl Requested");
+            for(int j = 0; j < NetworkClients.Length; j++){
+                if(NetworkClients[j].getNetworkName() == request.network){
+                    send_request(request, NetworkClients[j].stream);
+                }
+                else{
+                    Console.WriteLine("Card network not found");
+                }
+            }
+        }
+        if(request.type == "BalanceEnq"){
+            Console.WriteLine("[Server] ATM: BalanceEnq Requested");
+            for(int j = 0; j < NetworkClients.Length; j++){
+                if(NetworkClients[j].getNetworkName() == request.network){
+                    Console.WriteLine("Card network found, Balance Requested: {0}", request.amount);
+                    send_request(request, NetworkClients[j].stream);
+                }
+                else{
+                    Console.WriteLine("Card network not found");
+                }
+>>>>>>> main
             }
         }
     }
@@ -344,6 +510,7 @@ class Request{
 
 //object type for a request to sent to and from the server
     public Request(){
+<<<<<<< HEAD
         //List of types
         //Hello: Intial request for details, will be sent to all clients who join
         //Hello.ATM for ATM clients
@@ -352,6 +519,8 @@ class Request{
         //Withdrawl.RESPONSE: Response to withdrawl request
         //BalanceEnq: Request to check balance
         //BalanceEnq.RESPONSE: Response to balance request
+=======
+>>>>>>> main
         this.type = "";
         this.card_number = "";
         this.pin = "";
@@ -373,9 +542,15 @@ class Request{
 
 //class for testing functions
 class testingFuncs{
+<<<<<<< HEAD
     public async Task clientTests(){
         network_server myServer = new network_server();
         await myServer.Start_Server();
+=======
+    public void clientTests(){
+        network_server myServer = new network_server();
+        myServer.Start_Server();
+>>>>>>> main
     }
 
 }

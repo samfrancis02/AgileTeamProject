@@ -2,6 +2,7 @@
   "version": 3,
   "targets": {
     "net9.0": {
+<<<<<<< HEAD
       "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
         "type": "package",
         "compile": {
@@ -54,6 +55,8 @@
           }
         }
       },
+=======
+>>>>>>> main
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -70,6 +73,7 @@
     }
   },
   "libraries": {
+<<<<<<< HEAD
     "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
       "sha512": "3iE7UF7MQkCv1cxzCahz+Y/guQbTqieyxyaWKhrRO91itI9cOKO76OHeQDahqG4MmW5umr3CcCvGmK92lWNlbg==",
       "type": "package",
@@ -204,6 +208,8 @@
         "mysqlconnector.nuspec"
       ]
     },
+=======
+>>>>>>> main
     "Newtonsoft.Json/13.0.3": {
       "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
@@ -237,7 +243,10 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+<<<<<<< HEAD
       "MySqlConnector >= 2.4.0",
+=======
+>>>>>>> main
       "Newtonsoft.Json >= 13.0.3"
     ]
   },
@@ -284,10 +293,13 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+<<<<<<< HEAD
           "MySqlConnector": {
             "target": "Package",
             "version": "[2.4.0, )"
           },
+=======
+>>>>>>> main
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"

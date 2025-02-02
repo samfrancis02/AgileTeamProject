@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "sg1bNZ1CNrI=",
   "success": true,
   "projectFilePath": "/Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Client/Client.csproj",
@@ -7,6 +8,12 @@
     "/Users/samfrancis/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "/Users/samfrancis/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.2/microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
     "/Users/samfrancis/.nuget/packages/mysqlconnector/2.4.0/mysqlconnector.2.4.0.nupkg.sha512",
+=======
+  "dgSpecHash": "RBbtD4oSMcI=",
+  "success": true,
+  "projectFilePath": "/Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Client/Client.csproj",
+  "expectedPackageFiles": [
+>>>>>>> main
     "/Users/samfrancis/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []

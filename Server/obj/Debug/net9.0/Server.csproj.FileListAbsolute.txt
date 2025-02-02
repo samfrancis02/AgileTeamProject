@@ -16,9 +16,12 @@
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Server/bin/Debug/net9.0/Newtonsoft.Json.dll
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Server/obj/Debug/net9.0/Server.csproj.AssemblyReference.cache
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Server/obj/Debug/net9.0/Server.csproj.Up2Date
+<<<<<<< HEAD
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Server/bin/Debug/net9.0/System.Data.SqlClient.dll
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Server/bin/Debug/net9.0/runtimes/win-arm64/native/sni.dll
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Server/bin/Debug/net9.0/runtimes/win-x64/native/sni.dll
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Server/bin/Debug/net9.0/runtimes/win-x86/native/sni.dll
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Server/bin/Debug/net9.0/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Server/bin/Debug/net9.0/runtimes/win/lib/net8.0/System.Data.SqlClient.dll
+=======
+>>>>>>> main

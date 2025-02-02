@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "BsPrn90nZHk=",
   "success": true,
   "projectFilePath": "/Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Server/Server.csproj",
@@ -10,6 +11,13 @@
     "/Users/samfrancis/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/samfrancis/.nuget/packages/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/samfrancis/.nuget/packages/system.data.sqlclient/4.9.0/system.data.sqlclient.4.9.0.nupkg.sha512"
+=======
+  "dgSpecHash": "bGJtnuTITP4=",
+  "success": true,
+  "projectFilePath": "/Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Server/Server.csproj",
+  "expectedPackageFiles": [
+    "/Users/samfrancis/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+>>>>>>> main
   ],
   "logs": []
 }

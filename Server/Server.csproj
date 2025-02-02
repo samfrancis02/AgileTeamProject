@@ -9,7 +9,10 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+<<<<<<< HEAD
     <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+=======
+>>>>>>> main
   </ItemGroup>
 
 </Project>

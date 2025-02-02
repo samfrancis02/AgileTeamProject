@@ -47,10 +47,13 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+<<<<<<< HEAD
             },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.9.0, )"
+=======
+>>>>>>> main
             }
           },
           "imports": [

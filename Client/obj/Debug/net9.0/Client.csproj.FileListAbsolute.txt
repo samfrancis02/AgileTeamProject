@@ -16,6 +16,9 @@
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Client/bin/Debug/net9.0/Newtonsoft.Json.dll
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Client/obj/Debug/net9.0/Client.csproj.AssemblyReference.cache
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Client/obj/Debug/net9.0/Client.csproj.Up2Date
+<<<<<<< HEAD
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Client/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Client/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
 /Users/samfrancis/3rdyear/Agile/AgileTeamProject/Network_Simulation/Client/bin/Debug/net9.0/MySqlConnector.dll
+=======
+>>>>>>> main
