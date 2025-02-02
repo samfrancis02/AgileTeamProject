@@ -1,0 +1,249 @@
+1/31/2025 12:32:41 PM: Request Type: Hello.NETWORK Card Number:  Network: Visa Amount:  
+nt:  
+1/31/2025 12:32:55 PM: Request Type: Withdrawl.APPROVED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:33:06 PM: Request Type: Withdrawl.APPROVED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:33:24 PM: Request Type: Withdrawl.APPROVED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:33:46 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 6863 
+1/31/2025 12:34:06 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 6863 
+1/31/2025 12:34:28 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 6863 
+1/31/2025 12:34:50 PM: Request Type: Withdrawl.APPROVED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:35:06 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 6245 
+1/31/2025 12:35:28 PM: Request Type: Withdrawl.APPROVED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:35:48 PM: Request Type: Withdrawl.APPROVED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:36:07 PM: Request Type: Withdrawl.APPROVED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:36:29 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 4334 
+1/31/2025 12:36:52 PM: Request Type: Withdrawl.APPROVED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:37:08 PM: Request Type: Withdrawl.APPROVED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:37:25 PM: Request Type: Withdrawl.APPROVED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:37:48 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 2605 
+1/31/2025 12:38:09 PM: Request Type: Withdrawl.APPROVED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:38:26 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 1734 
+1/31/2025 12:38:43 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 1734 
+1/31/2025 12:38:59 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 1734 
+1/31/2025 12:39:22 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 1734 
+1/31/2025 12:39:41 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 1734 
+1/31/2025 12:40:04 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 1734 
+1/31/2025 12:40:22 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 1734 
+1/31/2025 12:40:46 PM: Request Type: Withdrawl.APPROVED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:41:08 PM: Request Type: Withdrawl.APPROVED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:41:33 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 791 
+1/31/2025 12:41:54 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 791 
+1/31/2025 12:42:16 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 791 
+1/31/2025 12:42:38 PM: Request Type: Withdrawl.APPROVED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:42:56 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 518 
+1/31/2025 12:43:13 PM: Request Type: Withdrawl.APPROVED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:43:35 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 385 
+1/31/2025 12:43:57 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 385 
+1/31/2025 12:44:19 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:44:36 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 385 
+1/31/2025 12:44:53 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 385 
+1/31/2025 12:45:13 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 385 
+1/31/2025 12:45:32 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:45:49 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:46:12 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:46:28 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:46:49 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:47:13 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:47:36 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 385 
+1/31/2025 12:47:52 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 385 
+1/31/2025 12:48:17 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 385 
+1/31/2025 12:48:34 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 385 
+1/31/2025 12:48:57 PM: Request Type: Withdrawl.APPROVED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:49:22 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 12:49:44 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 12:50:06 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:50:23 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:50:41 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 12:51:05 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:51:25 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:51:45 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 12:52:07 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 12:52:26 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 12:52:49 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 12:53:11 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 12:53:37 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 1:03:28 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 1:05:17 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 1:06:09 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 1:12:23 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 1:17:20 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 1:51:11 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 1:54:37 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 1:57:27 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 1:59:40 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 2:00:32 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 2:01:15 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 2:04:10 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 2:04:50 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 2:05:17 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 2:17:15 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 2:18:13 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 2:22:39 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 2:23:22 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 2:26:48 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 2:28:24 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 2:28:44 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 2:33:52 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 2:44:29 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 2:45:01 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 2:45:40 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 2:46:03 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 2:47:09 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 2:47:34 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 2:48:54 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 2:51:36 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 2:53:11 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 2:54:25 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 2:54:54 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 2:55:32 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 3:31:14 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 3:54:49 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 4:08:56 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 4:09:24 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 4:10:27 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 4:10:45 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 4:11:22 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 4:12:09 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 4:12:41 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 4:13:48 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 4:14:23 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 4:15:08 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 4:15:44 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 4:17:07 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 4:32:52 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 5:04:37 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 5:07:29 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 5:08:03 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 5:16:24 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 5:18:31 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 5:19:02 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 5:19:42 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 5:20:21 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 6:03:02 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 6:16:25 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 6:16:56 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 6:57:41 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 7:45:25 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 7:58:46 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 8:19:11 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 8:59:41 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 9:07:58 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 9:55:21 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 10:08:00 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 10:12:20 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 11:01:41 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 11:13:44 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 11:14:11 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+1/31/2025 11:14:33 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 11:34:38 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 11:39:57 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+1/31/2025 11:43:25 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 12:35:48 AM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 1:26:24 AM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 2:15:49 AM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 3:21:13 AM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 4:26:01 AM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 5:19:27 AM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 6:10:16 AM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 7:31:55 AM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 8:08:37 AM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 9:01:03 AM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 9:49:22 AM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 9:50:40 AM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 10:02:17 AM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 10:04:25 AM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 10:30:48 AM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 10:55:13 AM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 10:56:01 AM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 11:00:18 AM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 11:22:12 AM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 12:11:30 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 12:25:16 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 12:31:38 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 12:49:08 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 12:54:55 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 1:50:15 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 2:09:08 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 2:12:04 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 2:13:14 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 2:18:37 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 2:28:23 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 3:12:45 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 3:27:22 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 3:27:58 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 3:32:04 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 3:33:49 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 3:36:33 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 3:40:29 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 3:44:36 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 3:47:15 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 3:48:16 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 3:49:46 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 3:50:16 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 3:50:42 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 3:52:54 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 4:05:24 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 4:25:21 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 4:43:05 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 4:43:22 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 4:45:44 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 5:21:19 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 5:32:21 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 5:32:52 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 5:34:10 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 5:59:42 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 6:11:27 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 6:16:01 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 6:25:20 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 6:25:44 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 6:35:55 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 6:37:28 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 6:38:00 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 6:38:27 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 6:38:54 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 6:39:13 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 6:39:52 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 6:42:01 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 80 
+2/1/2025 6:42:30 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 6:43:35 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 6:44:47 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 6:45:13 PM: Request Type: Withdrawl.APPROVED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 6:45:59 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 6:46:54 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 6:47:34 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 6:52:19 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 7:24:28 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 7:25:01 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 7:31:34 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 7:32:01 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 7:33:30 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 7:36:07 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 7:38:03 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
+2/1/2025 7:40:46 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
+2/1/2025 7:43:28 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 7:51:01 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 7:56:15 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
+2/1/2025 8:04:00 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 8:20:25 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 8:39:48 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 9:02:53 PM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/1/2025 9:45:29 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
+2/1/2025 9:46:20 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
+2/1/2025 9:51:44 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
+2/1/2025 10:21:39 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
+2/1/2025 11:20:00 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
+2/2/2025 12:23:29 AM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
+2/2/2025 1:12:41 AM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
+2/2/2025 2:18:03 AM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/2/2025 3:22:22 AM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/2/2025 4:28:46 AM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/2/2025 5:38:18 AM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/2/2025 6:31:48 AM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
+2/2/2025 7:20:04 AM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
+2/2/2025 7:56:39 AM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
+2/2/2025 8:31:18 AM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
+2/2/2025 9:54:13 AM: Request Type: Withdrawl.DECLINED Card Number: 4111111111111111 Network: Visa Amount:  
+2/2/2025 10:08:00 AM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
+2/2/2025 10:55:59 AM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
+2/2/2025 11:30:45 AM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
+2/2/2025 12:16:54 PM: Request Type: BalanceEnq.RESPONSE Card Number: 4111111111111111 Network: Visa Amount: 21 
