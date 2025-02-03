@@ -1,0 +1,474 @@
+2025-02-02 20:15:37.933 +00:00 [INF] Now listening on: http://localhost:5037
+2025-02-02 20:15:38.011 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 20:15:38.015 +00:00 [INF] Hosting environment: Development
+2025-02-02 20:15:38.017 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-02-02 20:15:38.796 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-02-02 20:15:38.978 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 189.4012ms
+2025-02-02 20:15:39.030 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 20:15:39.030 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.css - null null
+2025-02-02 20:15:39.030 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-02-02 20:15:39.030 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-02-02 20:15:39.036 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 14.5742ms
+2025-02-02 20:15:39.050 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 28.4757ms
+2025-02-02 20:15:39.051 +00:00 [INF] The file /index.css was not modified
+2025-02-02 20:15:39.072 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.css - 304 null text/css 51.4143ms
+2025-02-02 20:15:39.083 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.2498ms
+2025-02-02 20:15:39.225 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-02-02 20:15:39.236 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.0498ms
+2025-02-02 20:16:21.666 +00:00 [INF] Now listening on: http://localhost:5037
+2025-02-02 20:16:21.748 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 20:16:21.750 +00:00 [INF] Hosting environment: Development
+2025-02-02 20:16:21.751 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-02-02 20:16:22.339 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-02-02 20:16:22.473 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 142.5144ms
+2025-02-02 20:16:22.503 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-02-02 20:16:22.503 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 20:16:22.503 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-02-02 20:16:22.518 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 18.0855ms
+2025-02-02 20:16:22.524 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 21.5567ms
+2025-02-02 20:16:22.541 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.4686ms
+2025-02-02 20:16:22.628 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-02-02 20:16:22.639 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.559ms
+2025-02-02 20:47:00.868 +00:00 [INF] Now listening on: http://localhost:5037
+2025-02-02 20:47:00.945 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 20:47:00.949 +00:00 [INF] Hosting environment: Development
+2025-02-02 20:47:00.950 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-02-02 20:47:01.476 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-02-02 20:47:01.627 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 156.745ms
+2025-02-02 20:47:01.673 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 20:47:01.673 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-02-02 20:47:01.673 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-02-02 20:47:01.683 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 17.4644ms
+2025-02-02 20:47:01.686 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 21.1656ms
+2025-02-02 20:47:01.719 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.4502ms
+2025-02-02 20:47:01.806 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-02-02 20:47:01.817 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.6385ms
+2025-02-02 22:00:28.055 +00:00 [INF] Now listening on: http://localhost:5037
+2025-02-02 22:00:28.149 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 22:00:28.151 +00:00 [INF] Hosting environment: Development
+2025-02-02 22:00:28.152 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-02-02 22:00:29.007 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-02-02 22:00:29.183 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 184.565ms
+2025-02-02 22:00:29.242 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:00:29.244 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-02-02 22:00:29.245 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-02-02 22:00:29.255 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 17.855ms
+2025-02-02 22:00:29.251 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 13.5963ms
+2025-02-02 22:00:29.306 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.4945ms
+2025-02-02 22:00:29.400 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-02-02 22:00:29.412 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.1964ms
+2025-02-02 22:00:34.688 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - application/json; charset=utf-8 46
+2025-02-02 22:00:34.714 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-02-02 22:00:34.729 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-02 22:00:34.812 +00:00 [INF] Route matched with {action = "Authenticate", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(atmapp.Models.CardAuthRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-02 22:00:35.700 +00:00 [INF] Authentication attempt for Visa CardNumber: 4111********4444
+2025-02-02 22:00:39.053 +00:00 [INF] Executed DbCommand (141ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-02 22:00:40.929 +00:00 [INF] Visa card authentication successful for CardNumber: 4111********4444
+2025-02-02 22:00:40.951 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-02 22:00:40.983 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.Authenticate (atmapp) in 6151.1298ms
+2025-02-02 22:00:40.989 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-02 22:00:41.009 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - 200 null application/json; charset=utf-8 6321.5316ms
+2025-02-02 22:00:51.427 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - application/json; charset=utf-8 143
+2025-02-02 22:00:51.436 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-02 22:00:51.449 +00:00 [INF] Route matched with {action = "ProcessTransaction", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProcessTransaction(atmapp.Models.TransactionRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-02 22:00:51.498 +00:00 [INF] Processing withdrawal transaction bd3e4a15-0546-471d-8dcb-b577e45f2655 for CardNumber: 4111********4444
+2025-02-02 22:00:51.575 +00:00 [INF] Executed DbCommand (13ms) [Parameters=[@__atmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ATMId], [a].[FiftyDenomination], [a].[TenDenomination], [a].[TwentyDenomination]
+FROM [ATMInventories] AS [a]
+WHERE [a].[ATMId] = @__atmId_0
+2025-02-02 22:00:51.615 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-02 22:00:51.946 +00:00 [INF] Executed DbCommand (40ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32), @p2='?' (DbType = Double), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000), @p9='?' (Size = 450), @p7='?' (DbType = Double), @p8='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [ATMInventories] SET [TwentyDenomination] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+INSERT INTO [Transactions] ([Amount], [CardNumber], [Status], [Timestamp], [TransactionType])
+OUTPUT INSERTED.[Id]
+VALUES (@p2, @p3, @p4, @p5, @p6);
+UPDATE [VisaCards] SET [Balance] = @p7, [DailyWithdrawn] = @p8
+OUTPUT 1
+WHERE [CardNumber] = @p9;
+2025-02-02 22:00:52.011 +00:00 [INF] Transaction bd3e4a15-0546-471d-8dcb-b577e45f2655 successful. Denominations dispensed: 50s=0, 20s=2, 10s=0
+2025-02-02 22:00:52.019 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], atmapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-02 22:00:52.037 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp) in 580.4598ms
+2025-02-02 22:00:52.041 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-02 22:00:52.045 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - 200 null application/json; charset=utf-8 618.7636ms
+2025-02-02 22:14:08.867 +00:00 [INF] Now listening on: http://localhost:5037
+2025-02-02 22:14:08.949 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 22:14:08.951 +00:00 [INF] Hosting environment: Development
+2025-02-02 22:14:08.952 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-02-02 22:14:09.343 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-02-02 22:14:09.505 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 166.4364ms
+2025-02-02 22:14:09.541 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:14:09.541 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-02-02 22:14:09.541 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-02-02 22:14:09.548 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 7.8816ms
+2025-02-02 22:14:09.551 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 11.5933ms
+2025-02-02 22:14:09.579 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.1737ms
+2025-02-02 22:14:09.679 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-02-02 22:14:09.692 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - atmapp.Controllers.atmAPIController.ProcessQueuedTransactions (atmapp). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-02 22:14:09.701 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 21.9394ms
+2025-02-02 22:14:16.205 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-02-02 22:14:16.233 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 28.6434ms
+2025-02-02 22:14:16.266 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:14:16.266 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-02-02 22:14:16.266 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-02-02 22:14:16.271 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 5.5311ms
+2025-02-02 22:14:16.291 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 25.7915ms
+2025-02-02 22:14:16.312 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.1457ms
+2025-02-02 22:14:16.340 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-02-02 22:14:16.358 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - atmapp.Controllers.atmAPIController.ProcessQueuedTransactions (atmapp). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-02 22:14:16.372 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 32.2816ms
+2025-02-02 22:14:22.198 +00:00 [INF] Now listening on: http://localhost:5037
+2025-02-02 22:14:22.299 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 22:14:22.301 +00:00 [INF] Hosting environment: Development
+2025-02-02 22:14:22.303 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-02-02 22:14:22.625 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-02-02 22:14:22.769 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 150.4209ms
+2025-02-02 22:14:22.794 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:14:22.794 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-02-02 22:14:22.794 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-02-02 22:14:22.800 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 8.9459ms
+2025-02-02 22:14:22.805 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 11.0506ms
+2025-02-02 22:14:22.829 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.676ms
+2025-02-02 22:14:22.928 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-02-02 22:14:22.941 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - atmapp.Controllers.atmAPIController.ProcessQueuedTransactions (atmapp). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-02 22:14:22.948 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 20.017ms
+2025-02-02 22:14:46.341 +00:00 [INF] Now listening on: http://localhost:5037
+2025-02-02 22:14:46.430 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 22:14:46.432 +00:00 [INF] Hosting environment: Development
+2025-02-02 22:14:46.434 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-02-02 22:14:46.761 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-02-02 22:14:46.900 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 147.3337ms
+2025-02-02 22:14:46.925 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:14:46.925 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-02-02 22:14:46.925 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-02-02 22:14:46.932 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 7.8892ms
+2025-02-02 22:14:46.942 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 17.2372ms
+2025-02-02 22:14:46.972 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.4936ms
+2025-02-02 22:14:47.055 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-02-02 22:14:47.067 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - atmapp.Controllers.atmAPIController.ProcessQueuedTransactions (atmapp). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-02 22:14:47.075 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 19.4043ms
+2025-02-02 22:16:02.623 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-02-02 22:16:02.667 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 43.8246ms
+2025-02-02 22:16:02.702 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-02-02 22:16:02.711 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-02-02 22:16:02.707 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:16:02.738 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 35.5416ms
+2025-02-02 22:16:02.771 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 64.2501ms
+2025-02-02 22:16:02.786 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.7859ms
+2025-02-02 22:16:02.821 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-02-02 22:16:02.835 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - atmapp.Controllers.atmAPIController.ProcessQueuedTransactions (atmapp). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-02 22:16:02.846 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 25.2825ms
+2025-02-02 22:16:03.463 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-02-02 22:16:03.483 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 20.4942ms
+2025-02-02 22:16:03.514 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-02-02 22:16:03.514 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:16:03.514 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-02-02 22:16:03.521 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 7.3417ms
+2025-02-02 22:16:03.525 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 11.2435ms
+2025-02-02 22:16:03.538 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.2625ms
+2025-02-02 22:16:03.574 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-02-02 22:16:03.591 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - atmapp.Controllers.atmAPIController.ProcessQueuedTransactions (atmapp). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-02 22:16:03.601 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 26.6495ms
+2025-02-02 22:16:04.256 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-02-02 22:16:04.270 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 14.3509ms
+2025-02-02 22:16:04.296 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-02-02 22:16:04.299 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:16:04.299 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-02-02 22:16:04.303 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 6.9984ms
+2025-02-02 22:16:04.304 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 5.1005ms
+2025-02-02 22:16:04.334 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.9466ms
+2025-02-02 22:16:04.361 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-02-02 22:16:04.378 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - atmapp.Controllers.atmAPIController.ProcessQueuedTransactions (atmapp). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-02 22:16:04.391 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 30.6785ms
+2025-02-02 22:16:04.440 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-02-02 22:16:04.452 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 12.4887ms
+2025-02-02 22:16:04.480 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-02-02 22:16:04.483 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-02-02 22:16:04.483 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:16:04.486 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 6.0187ms
+2025-02-02 22:16:04.501 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.9996ms
+2025-02-02 22:16:04.501 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 18.6973ms
+2025-02-02 22:16:04.537 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-02-02 22:16:04.551 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - atmapp.Controllers.atmAPIController.ProcessQueuedTransactions (atmapp). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-02 22:16:04.560 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 22.7468ms
+2025-02-02 22:16:04.615 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-02-02 22:16:04.631 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 16.1878ms
+2025-02-02 22:16:04.659 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-02-02 22:16:04.660 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-02-02 22:16:04.660 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:16:04.668 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 9.0065ms
+2025-02-02 22:16:04.689 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.1001ms
+2025-02-02 22:16:04.690 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 29.7022ms
+2025-02-02 22:16:04.724 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-02-02 22:16:04.736 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - atmapp.Controllers.atmAPIController.ProcessQueuedTransactions (atmapp). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-02 22:16:04.746 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 21.9419ms
+2025-02-02 22:16:04.814 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-02-02 22:16:04.829 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 15.6987ms
+2025-02-02 22:16:04.860 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-02-02 22:16:04.864 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-02-02 22:16:04.864 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:16:04.866 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 5.7319ms
+2025-02-02 22:16:04.879 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.2779ms
+2025-02-02 22:16:04.880 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 16.0587ms
+2025-02-02 22:16:04.916 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-02-02 22:16:04.928 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - atmapp.Controllers.atmAPIController.ProcessQueuedTransactions (atmapp). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-02 22:16:04.938 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 22.7245ms
+2025-02-02 22:16:23.683 +00:00 [INF] Now listening on: http://localhost:5037
+2025-02-02 22:16:23.757 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 22:16:23.759 +00:00 [INF] Hosting environment: Development
+2025-02-02 22:16:23.760 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-02-02 22:16:24.292 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-02-02 22:16:24.466 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 181.935ms
+2025-02-02 22:16:24.506 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:16:24.506 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-02-02 22:16:24.506 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-02-02 22:16:24.514 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 8.9518ms
+2025-02-02 22:16:24.519 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 13.6209ms
+2025-02-02 22:16:24.558 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.9496ms
+2025-02-02 22:16:24.712 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-02-02 22:16:24.721 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.559ms
+2025-02-02 22:20:37.286 +00:00 [INF] Now listening on: http://localhost:5037
+2025-02-02 22:20:37.375 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 22:20:37.377 +00:00 [INF] Hosting environment: Development
+2025-02-02 22:20:37.378 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-02-02 22:20:37.737 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-02-02 22:20:37.900 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 171.6127ms
+2025-02-02 22:20:37.939 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-02-02 22:20:37.939 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:20:37.939 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-02-02 22:20:37.950 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 11.6808ms
+2025-02-02 22:20:37.955 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 16.2887ms
+2025-02-02 22:20:37.974 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.3808ms
+2025-02-02 22:20:38.102 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-02-02 22:20:38.116 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.8551ms
+2025-02-02 22:20:57.262 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - application/json; charset=utf-8 46
+2025-02-02 22:20:57.283 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-02-02 22:20:57.298 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-02 22:20:57.366 +00:00 [INF] Route matched with {action = "Authenticate", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(atmapp.Models.CardAuthRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-02 22:20:57.935 +00:00 [INF] Authentication attempt for Visa CardNumber: 4111********4444
+2025-02-02 22:26:17.643 +00:00 [INF] Now listening on: http://localhost:5037
+2025-02-02 22:26:17.724 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 22:26:17.726 +00:00 [INF] Hosting environment: Development
+2025-02-02 22:26:17.728 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-02-02 22:26:18.428 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-02-02 22:26:18.573 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 150.1734ms
+2025-02-02 22:26:18.603 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-02-02 22:26:18.603 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:26:18.603 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-02-02 22:26:18.624 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 22.5402ms
+2025-02-02 22:26:18.626 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 24.3242ms
+2025-02-02 22:26:18.645 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.0731ms
+2025-02-02 22:26:18.743 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-02-02 22:26:18.752 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.3772ms
+2025-02-02 22:26:42.609 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - application/json; charset=utf-8 46
+2025-02-02 22:26:42.630 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-02-02 22:26:42.644 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-02 22:26:42.715 +00:00 [INF] Route matched with {action = "Authenticate", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(atmapp.Models.CardAuthRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-02 22:26:43.246 +00:00 [INF] Authentication attempt for Visa CardNumber: 4111********4444
+2025-02-02 22:26:46.244 +00:00 [INF] Executed DbCommand (114ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-02 22:26:48.066 +00:00 [INF] Visa card authentication successful for CardNumber: 4111********4444
+2025-02-02 22:26:48.083 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-02 22:26:48.106 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.Authenticate (atmapp) in 5377.4424ms
+2025-02-02 22:26:48.110 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-02 22:26:48.129 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - 200 null application/json; charset=utf-8 5520.4748ms
+2025-02-02 22:27:06.924 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - application/json; charset=utf-8 142
+2025-02-02 22:27:06.932 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-02 22:27:06.942 +00:00 [INF] Route matched with {action = "ProcessTransaction", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProcessTransaction(atmapp.Models.TransactionRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-02 22:27:06.990 +00:00 [INF] Processing withdrawal transaction 04990ca9-72eb-4497-a8d4-b435ecdd5867 for CardNumber: 4111********4444
+2025-02-02 22:27:07.070 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[@__atmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ATMId], [a].[FiftyDenomination], [a].[TenDenomination], [a].[TwentyDenomination]
+FROM [ATMInventories] AS [a]
+WHERE [a].[ATMId] = @__atmId_0
+2025-02-02 22:27:07.116 +00:00 [WRN] Insufficient denominations in ATM 1 for withdrawal amount: 2
+2025-02-02 22:27:07.123 +00:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-02 22:27:07.129 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp) in 181.47ms
+2025-02-02 22:27:07.133 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-02 22:27:07.137 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - 400 null application/json; charset=utf-8 213.0057ms
+2025-02-02 22:27:29.349 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - application/json; charset=utf-8 46
+2025-02-02 22:27:29.356 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-02 22:27:29.359 +00:00 [INF] Route matched with {action = "Authenticate", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(atmapp.Models.CardAuthRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-02 22:27:29.375 +00:00 [INF] Authentication attempt for Visa CardNumber: 4111********4444
+2025-02-02 22:27:29.563 +00:00 [INF] Executed DbCommand (15ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-02 22:27:30.588 +00:00 [INF] Visa card authentication successful for CardNumber: 4111********4444
+2025-02-02 22:27:30.594 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-02 22:27:30.599 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.Authenticate (atmapp) in 1234.3206ms
+2025-02-02 22:27:30.603 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-02 22:27:30.607 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - 200 null application/json; charset=utf-8 1258.2108ms
+2025-02-02 22:27:36.012 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/4111222233334444 - null null
+2025-02-02 22:27:36.021 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-02-02 22:27:36.040 +00:00 [INF] Route matched with {action = "GetBalance", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBalance(System.String) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-02 22:27:36.053 +00:00 [INF] Balance inquiry for CardNumber: 4111********4444
+2025-02-02 22:27:36.078 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/4111222233334444 - null null
+2025-02-02 22:27:36.079 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[@__cardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__cardNumber_0
+2025-02-02 22:27:36.085 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-02-02 22:27:36.093 +00:00 [INF] Balance for Visa CardNumber 4111********4444: 5530
+2025-02-02 22:27:36.096 +00:00 [INF] Route matched with {action = "GetBalance", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBalance(System.String) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-02 22:27:36.100 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-02 22:27:36.106 +00:00 [INF] Balance inquiry for CardNumber: 4111********4444
+2025-02-02 22:27:36.115 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__cardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__cardNumber_0
+2025-02-02 22:27:36.122 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.GetBalance (atmapp) in 76.304ms
+2025-02-02 22:27:36.123 +00:00 [INF] Balance for Visa CardNumber 4111********4444: 5530
+2025-02-02 22:27:36.126 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-02-02 22:27:36.130 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-02 22:27:36.134 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/4111222233334444 - 200 null application/json; charset=utf-8 121.5712ms
+2025-02-02 22:27:36.138 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.GetBalance (atmapp) in 33.6393ms
+2025-02-02 22:27:36.149 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-02-02 22:27:36.153 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/4111222233334444 - 200 null application/json; charset=utf-8 75.1119ms
+2025-02-02 22:27:49.958 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - application/json; charset=utf-8 45
+2025-02-02 22:27:49.964 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-02 22:27:49.967 +00:00 [INF] Route matched with {action = "Authenticate", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(atmapp.Models.CardAuthRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-02 22:27:49.986 +00:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-02 22:27:50.041 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.Authenticate (atmapp) in 69.0313ms
+2025-02-02 22:27:50.046 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-02 22:27:50.049 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - 400 null application/problem+json; charset=utf-8 91.6101ms
+2025-02-02 22:28:05.622 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - application/json; charset=utf-8 46
+2025-02-02 22:28:05.629 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-02 22:28:05.633 +00:00 [INF] Route matched with {action = "Authenticate", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(atmapp.Models.CardAuthRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-02 22:28:05.639 +00:00 [INF] Authentication attempt for Visa CardNumber: 4111********4444
+2025-02-02 22:28:05.647 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-02 22:28:06.674 +00:00 [INF] Visa card authentication successful for CardNumber: 4111********4444
+2025-02-02 22:28:06.680 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-02 22:28:06.683 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.Authenticate (atmapp) in 1045.8016ms
+2025-02-02 22:28:06.686 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-02 22:28:06.689 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - 200 null application/json; charset=utf-8 1066.8877ms
+2025-02-02 22:28:15.017 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - application/json; charset=utf-8 143
+2025-02-02 22:28:15.022 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-02 22:28:15.024 +00:00 [INF] Route matched with {action = "ProcessTransaction", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProcessTransaction(atmapp.Models.TransactionRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-02 22:28:15.028 +00:00 [INF] Processing withdrawal transaction 2e5af19b-329d-4d3e-8e6b-082435c4493e for CardNumber: 4111********4444
+2025-02-02 22:28:15.038 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[@__atmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ATMId], [a].[FiftyDenomination], [a].[TenDenomination], [a].[TwentyDenomination]
+FROM [ATMInventories] AS [a]
+WHERE [a].[ATMId] = @__atmId_0
+2025-02-02 22:28:15.047 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-02 22:28:15.377 +00:00 [INF] Executed DbCommand (17ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32), @p2='?' (DbType = Double), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000), @p9='?' (Size = 450), @p7='?' (DbType = Double), @p8='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [ATMInventories] SET [TwentyDenomination] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+INSERT INTO [Transactions] ([Amount], [CardNumber], [Status], [Timestamp], [TransactionType])
+OUTPUT INSERTED.[Id]
+VALUES (@p2, @p3, @p4, @p5, @p6);
+UPDATE [VisaCards] SET [Balance] = @p7, [DailyWithdrawn] = @p8
+OUTPUT 1
+WHERE [CardNumber] = @p9;
+2025-02-02 22:28:15.433 +00:00 [INF] Transaction 2e5af19b-329d-4d3e-8e6b-082435c4493e successful. Denominations dispensed: 50s=0, 20s=2, 10s=0
+2025-02-02 22:28:15.437 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], atmapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-02 22:28:15.450 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp) in 423.2918ms
+2025-02-02 22:28:15.452 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-02 22:28:15.457 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - 200 null application/json; charset=utf-8 439.9911ms

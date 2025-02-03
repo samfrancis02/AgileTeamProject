@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "OuJSv7oaUWG8NhV6JYrTKk8yIgjPKjt0+6KMqkWppII=",
+  "Source": "atmapp",
+  "BasePath": "_content/atmapp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

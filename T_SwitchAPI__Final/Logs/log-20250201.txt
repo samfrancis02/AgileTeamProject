@@ -1,0 +1,341 @@
+2025-02-01 11:51:42.440 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - application/json; charset=utf-8 45
+2025-02-01 11:51:42.482 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 11:51:42.488 +00:00 [INF] Route matched with {action = "Authenticate", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(atmapp.Models.CardAuthRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 11:51:42.506 +00:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-01 11:51:42.587 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.Authenticate (atmapp) in 91.6613ms
+2025-02-01 11:51:42.594 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 11:51:42.597 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - 400 null application/problem+json; charset=utf-8 158.0289ms
+2025-02-01 11:51:57.411 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - application/json; charset=utf-8 46
+2025-02-01 11:51:57.423 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 11:51:57.428 +00:00 [INF] Route matched with {action = "Authenticate", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(atmapp.Models.CardAuthRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 11:51:57.437 +00:00 [INF] Authentication attempt for Visa CardNumber: 4111********4444
+2025-02-01 11:51:57.579 +00:00 [INF] Executed DbCommand (58ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-01 11:51:58.636 +00:00 [INF] Visa card authentication successful for CardNumber: 4111********4444
+2025-02-01 11:51:58.640 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 11:51:58.645 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.Authenticate (atmapp) in 1208.324ms
+2025-02-01 11:51:58.649 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 11:51:58.657 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - 200 null application/json; charset=utf-8 1245.5859ms
+2025-02-01 12:09:41.465 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - application/json 135
+2025-02-01 12:09:41.479 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-01 12:09:41.498 +00:00 [INF] Route matched with {action = "ProcessTransaction", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProcessTransaction(atmapp.Models.TransactionRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 12:09:41.567 +00:00 [INF] Processing withdrawal transaction TXN001 for CardNumber: 4111********4444
+2025-02-01 12:09:41.662 +00:00 [INF] Executed DbCommand (25ms) [Parameters=[@__atmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ATMId], [a].[FiftyDenomination], [a].[TenDenomination], [a].[TwentyDenomination]
+FROM [ATMInventories] AS [a]
+WHERE [a].[ATMId] = @__atmId_0
+2025-02-01 12:09:41.726 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-01 12:09:42.191 +00:00 [INF] Executed DbCommand (22ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32), @p2='?' (DbType = Double), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000), @p9='?' (Size = 450), @p7='?' (DbType = Double), @p8='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [ATMInventories] SET [TenDenomination] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+INSERT INTO [Transactions] ([Amount], [CardNumber], [Status], [Timestamp], [TransactionType])
+OUTPUT INSERTED.[Id]
+VALUES (@p2, @p3, @p4, @p5, @p6);
+UPDATE [VisaCards] SET [Balance] = @p7, [DailyWithdrawn] = @p8
+OUTPUT 1
+WHERE [CardNumber] = @p9;
+2025-02-01 12:09:42.273 +00:00 [INF] Transaction TXN001 successful. Denominations dispensed: 50s=0, 20s=0, 10s=1
+2025-02-01 12:09:42.281 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], atmapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 12:09:42.299 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp) in 795.3742ms
+2025-02-01 12:09:42.306 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-01 12:09:42.311 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - 200 null application/json; charset=utf-8 846.3701ms
+2025-02-01 13:49:10.384 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - application/json; charset=utf-8 46
+2025-02-01 13:49:10.413 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 13:49:10.418 +00:00 [INF] Route matched with {action = "Authenticate", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(atmapp.Models.CardAuthRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 13:49:10.429 +00:00 [INF] Authentication attempt for Visa CardNumber: 4111********4444
+2025-02-01 13:49:10.479 +00:00 [INF] Executed DbCommand (21ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-01 13:49:10.531 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - application/json; charset=utf-8 46
+2025-02-01 13:49:10.568 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 13:49:10.574 +00:00 [INF] Route matched with {action = "Authenticate", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(atmapp.Models.CardAuthRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 13:49:10.583 +00:00 [INF] Authentication attempt for Visa CardNumber: 4111********4444
+2025-02-01 13:49:10.591 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-01 13:49:11.661 +00:00 [INF] Visa card authentication successful for CardNumber: 4111********4444
+2025-02-01 13:49:11.665 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 13:49:11.671 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.Authenticate (atmapp) in 1244.5806ms
+2025-02-01 13:49:11.674 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 13:49:11.678 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - 200 null application/json; charset=utf-8 1296.6348ms
+2025-02-01 13:49:11.725 +00:00 [INF] Visa card authentication successful for CardNumber: 4111********4444
+2025-02-01 13:49:11.729 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 13:49:11.733 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.Authenticate (atmapp) in 1151.5665ms
+2025-02-01 13:49:11.737 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 13:49:11.740 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - 200 null application/json; charset=utf-8 1209.3214ms
+2025-02-01 13:49:29.897 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - application/json; charset=utf-8 143
+2025-02-01 13:49:29.916 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-01 13:49:29.924 +00:00 [INF] Route matched with {action = "ProcessTransaction", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProcessTransaction(atmapp.Models.TransactionRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 13:49:29.938 +00:00 [INF] Processing withdrawal transaction 6bbcf1d8-8a09-428b-bc2e-dbfe4c7a67b4 for CardNumber: 4111********4444
+2025-02-01 13:49:29.976 +00:00 [INF] Executed DbCommand (26ms) [Parameters=[@__atmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ATMId], [a].[FiftyDenomination], [a].[TenDenomination], [a].[TwentyDenomination]
+FROM [ATMInventories] AS [a]
+WHERE [a].[ATMId] = @__atmId_0
+2025-02-01 13:49:30.006 +00:00 [INF] Executed DbCommand (9ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-01 13:49:30.048 +00:00 [INF] Executed DbCommand (16ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32), @p2='?' (DbType = Double), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000), @p9='?' (Size = 450), @p7='?' (DbType = Double), @p8='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [ATMInventories] SET [TenDenomination] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+INSERT INTO [Transactions] ([Amount], [CardNumber], [Status], [Timestamp], [TransactionType])
+OUTPUT INSERTED.[Id]
+VALUES (@p2, @p3, @p4, @p5, @p6);
+UPDATE [VisaCards] SET [Balance] = @p7, [DailyWithdrawn] = @p8
+OUTPUT 1
+WHERE [CardNumber] = @p9;
+2025-02-01 13:49:30.066 +00:00 [INF] Transaction 6bbcf1d8-8a09-428b-bc2e-dbfe4c7a67b4 successful. Denominations dispensed: 50s=0, 20s=0, 10s=1
+2025-02-01 13:49:30.079 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], atmapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 13:49:30.090 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp) in 152.5468ms
+2025-02-01 13:49:30.100 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-01 13:49:30.109 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - 200 null application/json; charset=utf-8 212.1179ms
+2025-02-01 13:50:06.302 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - application/json; charset=utf-8 46
+2025-02-01 13:50:06.332 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 13:50:06.346 +00:00 [INF] Route matched with {action = "Authenticate", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(atmapp.Models.CardAuthRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 13:50:06.359 +00:00 [INF] Authentication attempt for Visa CardNumber: 4111********4444
+2025-02-01 13:50:06.372 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-01 13:50:07.467 +00:00 [INF] Visa card authentication successful for CardNumber: 4111********4444
+2025-02-01 13:50:07.472 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 13:50:07.481 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.Authenticate (atmapp) in 1122.9635ms
+2025-02-01 13:50:07.488 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 13:50:07.495 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - 200 null application/json; charset=utf-8 1192.5665ms
+2025-02-01 13:50:23.216 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - application/json; charset=utf-8 144
+2025-02-01 13:50:23.226 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-01 13:50:23.229 +00:00 [INF] Route matched with {action = "ProcessTransaction", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProcessTransaction(atmapp.Models.TransactionRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 13:50:23.239 +00:00 [INF] Processing withdrawal transaction d683fb7a-a48e-4dda-8354-430764cfcc9d for CardNumber: 4111********4444
+2025-02-01 13:50:23.246 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__atmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ATMId], [a].[FiftyDenomination], [a].[TenDenomination], [a].[TwentyDenomination]
+FROM [ATMInventories] AS [a]
+WHERE [a].[ATMId] = @__atmId_0
+2025-02-01 13:50:23.251 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-01 13:50:23.255 +00:00 [WRN] Transaction exceeds the daily limit for CardNumber: 4111********4444
+2025-02-01 13:50:23.259 +00:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 13:50:23.263 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp) in 27.2519ms
+2025-02-01 13:50:23.267 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-01 13:50:23.270 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - 400 null application/json; charset=utf-8 54.0745ms
+2025-02-01 14:14:27.182 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - application/json; charset=utf-8 143
+2025-02-01 14:14:27.196 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-01 14:14:27.201 +00:00 [INF] Route matched with {action = "ProcessTransaction", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProcessTransaction(atmapp.Models.TransactionRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 14:14:27.209 +00:00 [INF] Processing withdrawal transaction 4ced6187-4786-405c-8b19-f6e056e78e96 for CardNumber: 4111********4444
+2025-02-01 14:14:27.241 +00:00 [INF] Executed DbCommand (11ms) [Parameters=[@__atmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ATMId], [a].[FiftyDenomination], [a].[TenDenomination], [a].[TwentyDenomination]
+FROM [ATMInventories] AS [a]
+WHERE [a].[ATMId] = @__atmId_0
+2025-02-01 14:14:27.255 +00:00 [INF] Executed DbCommand (8ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-01 14:14:27.278 +00:00 [INF] Executed DbCommand (13ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32), @p2='?' (DbType = Double), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000), @p9='?' (Size = 450), @p7='?' (DbType = Double), @p8='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [ATMInventories] SET [TenDenomination] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+INSERT INTO [Transactions] ([Amount], [CardNumber], [Status], [Timestamp], [TransactionType])
+OUTPUT INSERTED.[Id]
+VALUES (@p2, @p3, @p4, @p5, @p6);
+UPDATE [VisaCards] SET [Balance] = @p7, [DailyWithdrawn] = @p8
+OUTPUT 1
+WHERE [CardNumber] = @p9;
+2025-02-01 14:14:27.283 +00:00 [INF] Transaction 4ced6187-4786-405c-8b19-f6e056e78e96 successful. Denominations dispensed: 50s=0, 20s=0, 10s=1
+2025-02-01 14:14:27.287 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], atmapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 14:14:27.291 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp) in 84.8852ms
+2025-02-01 14:14:27.294 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-01 14:14:27.297 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - 200 null application/json; charset=utf-8 127.5051ms
+2025-02-01 14:27:14.427 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - application/json; charset=utf-8 46
+2025-02-01 14:27:14.440 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 14:27:14.445 +00:00 [INF] Route matched with {action = "Authenticate", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(atmapp.Models.CardAuthRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 14:27:14.453 +00:00 [INF] Authentication attempt for Visa CardNumber: 4111********4444
+2025-02-01 14:27:14.496 +00:00 [INF] Executed DbCommand (18ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-01 14:27:15.279 +00:00 [INF] Visa card authentication successful for CardNumber: 4111********4444
+2025-02-01 14:27:15.284 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 14:27:15.292 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.Authenticate (atmapp) in 840.7864ms
+2025-02-01 14:27:15.297 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 14:27:15.302 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - 200 null application/json; charset=utf-8 875.2262ms
+2025-02-01 14:27:25.514 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - application/json; charset=utf-8 144
+2025-02-01 14:27:25.524 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-01 14:27:25.528 +00:00 [INF] Route matched with {action = "ProcessTransaction", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProcessTransaction(atmapp.Models.TransactionRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 14:27:25.535 +00:00 [INF] Processing withdrawal transaction e7c95fce-a4ff-44fa-81b8-7f96a5338f0b for CardNumber: 4111********4444
+2025-02-01 14:27:25.548 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[@__atmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ATMId], [a].[FiftyDenomination], [a].[TenDenomination], [a].[TwentyDenomination]
+FROM [ATMInventories] AS [a]
+WHERE [a].[ATMId] = @__atmId_0
+2025-02-01 14:27:25.559 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-01 14:27:25.571 +00:00 [WRN] Transaction exceeds the daily limit for CardNumber: 4111********4444
+2025-02-01 14:27:25.574 +00:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 14:27:25.581 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp) in 47.6208ms
+2025-02-01 14:27:25.586 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-01 14:27:25.589 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - 400 null application/json; charset=utf-8 75.265ms
+2025-02-01 14:31:40.721 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - application/json; charset=utf-8 46
+2025-02-01 14:31:40.735 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 14:31:40.743 +00:00 [INF] Route matched with {action = "Authenticate", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(atmapp.Models.CardAuthRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 14:31:40.756 +00:00 [INF] Authentication attempt for Visa CardNumber: 4111********4444
+2025-02-01 14:31:40.783 +00:00 [INF] Executed DbCommand (19ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-01 14:31:41.626 +00:00 [INF] Visa card authentication successful for CardNumber: 4111********4444
+2025-02-01 14:31:41.632 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 14:31:41.639 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.Authenticate (atmapp) in 885.1976ms
+2025-02-01 14:31:41.644 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 14:31:41.650 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - 200 null application/json; charset=utf-8 928.5071ms
+2025-02-01 14:31:53.762 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - application/json; charset=utf-8 144
+2025-02-01 14:31:53.774 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-01 14:31:53.777 +00:00 [INF] Route matched with {action = "ProcessTransaction", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProcessTransaction(atmapp.Models.TransactionRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 14:31:53.786 +00:00 [INF] Processing withdrawal transaction 206f2fa3-1daa-4626-a71d-373123f2a223 for CardNumber: 4111********4444
+2025-02-01 14:31:53.799 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[@__atmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ATMId], [a].[FiftyDenomination], [a].[TenDenomination], [a].[TwentyDenomination]
+FROM [ATMInventories] AS [a]
+WHERE [a].[ATMId] = @__atmId_0
+2025-02-01 14:31:53.809 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-01 14:31:53.818 +00:00 [WRN] Transaction exceeds the daily limit for CardNumber: 4111********4444
+2025-02-01 14:31:53.821 +00:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 14:31:53.825 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp) in 39.751ms
+2025-02-01 14:31:53.829 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-01 14:31:53.833 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - 400 null application/json; charset=utf-8 71.0109ms
+2025-02-01 14:32:16.059 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - application/json; charset=utf-8 46
+2025-02-01 14:32:16.076 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 14:32:16.082 +00:00 [INF] Route matched with {action = "Authenticate", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(atmapp.Models.CardAuthRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 14:32:16.095 +00:00 [INF] Authentication attempt for Visa CardNumber: 4111********4444
+2025-02-01 14:32:16.131 +00:00 [INF] Executed DbCommand (27ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-01 14:32:16.989 +00:00 [INF] Visa card authentication successful for CardNumber: 4111********4444
+2025-02-01 14:32:16.992 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 14:32:16.997 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.Authenticate (atmapp) in 904.1761ms
+2025-02-01 14:32:17.003 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 14:32:17.007 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - 200 null application/json; charset=utf-8 947.5383ms
+2025-02-01 14:32:40.402 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - application/json; charset=utf-8 143
+2025-02-01 14:32:40.429 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-01 14:32:40.442 +00:00 [INF] Route matched with {action = "ProcessTransaction", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProcessTransaction(atmapp.Models.TransactionRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 14:32:40.457 +00:00 [INF] Processing withdrawal transaction 3a91b3ae-d50d-4916-bbb0-59670665e750 for CardNumber: 4111********4444
+2025-02-01 14:32:40.474 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[@__atmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ATMId], [a].[FiftyDenomination], [a].[TenDenomination], [a].[TwentyDenomination]
+FROM [ATMInventories] AS [a]
+WHERE [a].[ATMId] = @__atmId_0
+2025-02-01 14:32:40.482 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-01 14:32:40.504 +00:00 [INF] Executed DbCommand (11ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32), @p2='?' (DbType = Double), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000), @p9='?' (Size = 450), @p7='?' (DbType = Double), @p8='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [ATMInventories] SET [TenDenomination] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+INSERT INTO [Transactions] ([Amount], [CardNumber], [Status], [Timestamp], [TransactionType])
+OUTPUT INSERTED.[Id]
+VALUES (@p2, @p3, @p4, @p5, @p6);
+UPDATE [VisaCards] SET [Balance] = @p7, [DailyWithdrawn] = @p8
+OUTPUT 1
+WHERE [CardNumber] = @p9;
+2025-02-01 14:32:40.511 +00:00 [INF] Transaction 3a91b3ae-d50d-4916-bbb0-59670665e750 successful. Denominations dispensed: 50s=0, 20s=0, 10s=1
+2025-02-01 14:32:40.516 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], atmapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 14:32:40.520 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp) in 64.6934ms
+2025-02-01 14:32:40.524 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-01 14:32:40.527 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - 200 null application/json; charset=utf-8 125.1457ms
+2025-02-01 22:47:37.184 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - application/json; charset=utf-8 46
+2025-02-01 22:47:37.205 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 22:47:37.210 +00:00 [INF] Route matched with {action = "Authenticate", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(atmapp.Models.CardAuthRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 22:47:37.219 +00:00 [INF] Authentication attempt for Visa CardNumber: 4111********4444
+2025-02-01 22:47:37.274 +00:00 [INF] Executed DbCommand (15ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-01 22:47:38.329 +00:00 [INF] Visa card authentication successful for CardNumber: 4111********4444
+2025-02-01 22:47:38.335 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 22:47:38.341 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.Authenticate (atmapp) in 1124.8563ms
+2025-02-01 22:47:38.347 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 22:47:38.351 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - 200 null application/json; charset=utf-8 1167.6137ms
+2025-02-01 22:47:45.820 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/4111222233334444 - null null
+2025-02-01 22:47:45.828 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-02-01 22:47:45.832 +00:00 [INF] Route matched with {action = "GetBalance", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBalance(System.String) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 22:47:45.837 +00:00 [INF] Balance inquiry for CardNumber: 4111********4444
+2025-02-01 22:47:45.857 +00:00 [INF] Executed DbCommand (15ms) [Parameters=[@__cardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__cardNumber_0
+2025-02-01 22:47:45.867 +00:00 [INF] Balance for Visa CardNumber 4111********4444: 5600
+2025-02-01 22:47:45.871 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 22:47:45.876 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.GetBalance (atmapp) in 39.8482ms
+2025-02-01 22:47:45.880 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-02-01 22:47:45.883 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/4111222233334444 - 200 null application/json; charset=utf-8 63.5638ms
+2025-02-01 22:47:45.913 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/4111222233334444 - null null
+2025-02-01 22:47:45.920 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-02-01 22:47:45.923 +00:00 [INF] Route matched with {action = "GetBalance", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBalance(System.String) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 22:47:45.928 +00:00 [INF] Balance inquiry for CardNumber: 4111********4444
+2025-02-01 22:47:45.934 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__cardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__cardNumber_0
+2025-02-01 22:47:45.940 +00:00 [INF] Balance for Visa CardNumber 4111********4444: 5600
+2025-02-01 22:47:45.944 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 22:47:45.948 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.GetBalance (atmapp) in 20.3151ms
+2025-02-01 22:47:45.951 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-02-01 22:47:45.954 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/4111222233334444 - 200 null application/json; charset=utf-8 40.8176ms
+2025-02-01 22:51:47.130 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - application/json; charset=utf-8 46
+2025-02-01 22:51:47.137 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 22:51:47.140 +00:00 [INF] Route matched with {action = "Authenticate", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(atmapp.Models.CardAuthRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 22:51:47.147 +00:00 [INF] Authentication attempt for Visa CardNumber: 4111********4444
+2025-02-01 22:51:47.168 +00:00 [INF] Executed DbCommand (15ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-01 22:51:48.257 +00:00 [INF] Visa card authentication successful for CardNumber: 4111********4444
+2025-02-01 22:51:48.261 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 22:51:48.265 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.Authenticate (atmapp) in 1121.1201ms
+2025-02-01 22:51:48.269 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.Authenticate (atmapp)'
+2025-02-01 22:51:48.274 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/authenticate - 200 null application/json; charset=utf-8 1143.6813ms
+2025-02-01 22:52:02.695 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - application/json; charset=utf-8 143
+2025-02-01 22:52:02.715 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-01 22:52:02.718 +00:00 [INF] Route matched with {action = "ProcessTransaction", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProcessTransaction(atmapp.Models.TransactionRequest) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-02-01 22:52:02.726 +00:00 [INF] Processing withdrawal transaction ebb40a50-e0d5-4ab0-a62e-d6bf26ab149a for CardNumber: 4111********4444
+2025-02-01 22:52:02.740 +00:00 [INF] Executed DbCommand (8ms) [Parameters=[@__atmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ATMId], [a].[FiftyDenomination], [a].[TenDenomination], [a].[TwentyDenomination]
+FROM [ATMInventories] AS [a]
+WHERE [a].[ATMId] = @__atmId_0
+2025-02-01 22:52:02.751 +00:00 [INF] Executed DbCommand (4ms) [Parameters=[@__request_CardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__request_CardNumber_0
+2025-02-01 22:52:02.769 +00:00 [INF] Executed DbCommand (9ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p3='?' (DbType = Double), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (Size = 4000), @p10='?' (Size = 450), @p8='?' (DbType = Double), @p9='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [ATMInventories] SET [TenDenomination] = @p0, [TwentyDenomination] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+INSERT INTO [Transactions] ([Amount], [CardNumber], [Status], [Timestamp], [TransactionType])
+OUTPUT INSERTED.[Id]
+VALUES (@p3, @p4, @p5, @p6, @p7);
+UPDATE [VisaCards] SET [Balance] = @p8, [DailyWithdrawn] = @p9
+OUTPUT 1
+WHERE [CardNumber] = @p10;
+2025-02-01 22:52:02.777 +00:00 [INF] Transaction ebb40a50-e0d5-4ab0-a62e-d6bf26ab149a successful. Denominations dispensed: 50s=0, 20s=1, 10s=1
+2025-02-01 22:52:02.782 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], atmapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-01 22:52:02.786 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp) in 62.2164ms
+2025-02-01 22:52:02.790 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-02-01 22:52:02.793 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - 200 null application/json; charset=utf-8 97.9884ms

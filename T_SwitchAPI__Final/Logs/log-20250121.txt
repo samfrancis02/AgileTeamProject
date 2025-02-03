@@ -1,0 +1,204 @@
+2025-01-21 23:29:33.936 +00:00 [INF] Now listening on: http://localhost:5037
+2025-01-21 23:29:34.019 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 23:29:34.020 +00:00 [INF] Hosting environment: Development
+2025-01-21 23:29:34.021 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-01-21 23:29:34.760 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-01-21 23:29:34.833 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 23:29:34.868 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 25.3302ms
+2025-01-21 23:29:34.901 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:29:34.961 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 500 null text/html; charset=utf-8 213.8539ms
+2025-01-21 23:29:34.981 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-01-21 23:29:34.991 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 23:29:34.994 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 5.0187ms
+2025-01-21 23:29:35.010 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.0157ms
+2025-01-21 23:29:35.106 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/favicon.ico - null null
+2025-01-21 23:29:35.111 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:29:35.114 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/favicon.ico - 500 null text/plain; charset=utf-8 7.4233ms
+2025-01-21 23:29:35.303 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-01-21 23:29:35.308 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:29:35.312 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 8.8651ms
+2025-01-21 23:29:37.679 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 23:29:37.684 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 5.2528ms
+2025-01-21 23:29:37.711 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 23:29:37.717 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 6.3004ms
+2025-01-21 23:29:38.155 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/favicon.ico - null null
+2025-01-21 23:29:38.158 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:29:38.162 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/favicon.ico - 500 null text/plain; charset=utf-8 6.8661ms
+2025-01-21 23:29:38.188 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/favicon.ico - null null
+2025-01-21 23:29:38.192 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:29:38.195 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/favicon.ico - 500 null text/plain; charset=utf-8 7.6376ms
+2025-01-21 23:30:19.031 +00:00 [INF] Now listening on: http://localhost:5037
+2025-01-21 23:30:19.128 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 23:30:19.130 +00:00 [INF] Hosting environment: Development
+2025-01-21 23:30:19.133 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-01-21 23:30:19.932 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-01-21 23:30:20.058 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:30:20.115 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 500 null text/html; charset=utf-8 191.6827ms
+2025-01-21 23:30:20.183 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 23:30:20.183 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-01-21 23:30:20.191 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 9.0574ms
+2025-01-21 23:30:20.228 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.8245ms
+2025-01-21 23:30:20.325 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/favicon.ico - null null
+2025-01-21 23:30:20.332 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:30:20.339 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/favicon.ico - 500 null text/plain; charset=utf-8 13.4773ms
+2025-01-21 23:30:47.706 +00:00 [INF] Now listening on: http://localhost:5037
+2025-01-21 23:30:47.878 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 23:30:47.880 +00:00 [INF] Hosting environment: Development
+2025-01-21 23:30:47.883 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-01-21 23:30:48.805 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-01-21 23:30:49.023 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:30:49.147 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 500 null text/html; charset=utf-8 356.7559ms
+2025-01-21 23:30:49.196 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-01-21 23:30:49.213 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 23:30:49.235 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 22.0606ms
+2025-01-21 23:30:49.282 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 87.0311ms
+2025-01-21 23:30:49.514 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/favicon.ico - null null
+2025-01-21 23:30:49.524 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:30:49.533 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/favicon.ico - 500 null text/plain; charset=utf-8 19.1109ms
+2025-01-21 23:33:20.893 +00:00 [INF] Now listening on: http://localhost:5037
+2025-01-21 23:33:20.998 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 23:33:21.001 +00:00 [INF] Hosting environment: Development
+2025-01-21 23:33:21.005 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-01-21 23:33:21.895 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-01-21 23:33:22.048 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 23:33:22.078 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 28.8386ms
+2025-01-21 23:33:22.115 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:33:22.232 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 500 null text/html; charset=utf-8 356.5012ms
+2025-01-21 23:33:22.361 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-01-21 23:33:22.361 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 23:33:22.375 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 14.0703ms
+2025-01-21 23:33:22.439 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 78.0122ms
+2025-01-21 23:33:22.636 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/favicon.ico - null null
+2025-01-21 23:33:22.647 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:33:22.660 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/favicon.ico - 500 null text/plain; charset=utf-8 23.3936ms
+2025-01-21 23:33:22.754 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/favicon.ico - null null
+2025-01-21 23:33:22.763 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:33:22.768 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/favicon.ico - 500 null text/plain; charset=utf-8 13.5578ms
+2025-01-21 23:35:50.453 +00:00 [INF] Now listening on: http://localhost:5037
+2025-01-21 23:35:50.621 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 23:35:50.624 +00:00 [INF] Hosting environment: Development
+2025-01-21 23:35:50.626 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-01-21 23:35:51.464 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-01-21 23:35:51.605 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 23:35:51.654 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 48.8481ms
+2025-01-21 23:35:51.708 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:35:51.811 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 500 null text/html; charset=utf-8 366.4391ms
+2025-01-21 23:35:51.857 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-01-21 23:35:51.881 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 23:35:51.892 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 11.1544ms
+2025-01-21 23:35:52.077 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 220.2369ms
+2025-01-21 23:35:52.261 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/favicon.ico - null null
+2025-01-21 23:35:52.274 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:35:52.287 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/favicon.ico - 500 null text/plain; charset=utf-8 25.9705ms
+2025-01-21 23:35:52.304 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/favicon.ico - null null
+2025-01-21 23:35:52.320 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:35:52.328 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/favicon.ico - 500 null text/plain; charset=utf-8 24.2296ms
+2025-01-21 23:35:54.505 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 23:35:54.512 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 7.1731ms
+2025-01-21 23:35:55.195 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/favicon.ico - null null
+2025-01-21 23:35:55.201 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:35:55.205 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/favicon.ico - 500 null text/plain; charset=utf-8 10.9618ms
+2025-01-21 23:43:24.627 +00:00 [INF] Now listening on: http://localhost:5037
+2025-01-21 23:43:24.824 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 23:43:24.827 +00:00 [INF] Hosting environment: Development
+2025-01-21 23:43:24.829 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-01-21 23:43:25.715 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-01-21 23:43:25.870 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 23:43:25.909 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 39.4203ms
+2025-01-21 23:43:26.109 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 414.8762ms
+2025-01-21 23:43:26.169 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.css - null null
+2025-01-21 23:43:26.172 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-01-21 23:43:26.173 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 23:43:26.193 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 21.1305ms
+2025-01-21 23:43:26.201 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 28.7973ms
+2025-01-21 23:43:26.207 +00:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-01-21 23:43:26.214 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-01-21 23:43:26.232 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.css - 200 202 text/css 63.1799ms
+2025-01-21 23:43:26.338 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 124.0463ms
+2025-01-21 23:43:26.587 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-01-21 23:43:26.601 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/favicon.ico - null null
+2025-01-21 23:43:26.616 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 29.3211ms
+2025-01-21 23:43:26.618 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-01-21 23:43:26.635 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/favicon.ico - 404 0 null 33.4725ms
+2025-01-21 23:43:26.651 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5037/favicon.ico, Response status code: 404
+2025-01-21 23:43:29.636 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 23:43:29.642 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 6.6359ms
+2025-01-21 23:43:29.644 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 23:43:29.657 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 12.6474ms
+2025-01-21 23:43:30.260 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-01-21 23:43:30.270 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.766ms
+2025-01-21 23:43:30.295 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-01-21 23:43:30.305 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.7672ms
+2025-01-21 23:44:02.931 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - application/json 152
+2025-01-21 23:44:02.948 +00:00 [INF] Executing endpoint 'YourNamespace.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-01-21 23:44:03.012 +00:00 [INF] Route matched with {action = "ProcessTransaction", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProcessTransaction(YourNamespace.Models.TransactionRequest) on controller YourNamespace.Controllers.atmAPIController (atmapp).
+2025-01-21 23:44:03.135 +00:00 [INF] Processing transaction TX12345 for 500 by ATM ATM001
+2025-01-21 23:44:04.144 +00:00 [INF] Transaction TX12345 result: approved
+2025-01-21 23:44:04.158 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-21 23:44:04.187 +00:00 [INF] Executed action YourNamespace.Controllers.atmAPIController.ProcessTransaction (atmapp) in 1160.6441ms
+2025-01-21 23:44:04.196 +00:00 [INF] Executed endpoint 'YourNamespace.Controllers.atmAPIController.ProcessTransaction (atmapp)'
+2025-01-21 23:44:04.200 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5037/api/atmAPI/process-transaction - 200 null application/json; charset=utf-8 1275.3718ms

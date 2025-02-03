@@ -1,0 +1,176 @@
+2025-01-29 11:02:59.123 +00:00 [INF] Now listening on: http://localhost:5037
+2025-01-29 11:02:59.272 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-29 11:02:59.274 +00:00 [INF] Hosting environment: Development
+2025-01-29 11:02:59.275 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-01-29 11:02:59.672 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-01-29 11:02:59.925 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 263.0834ms
+2025-01-29 11:02:59.977 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-01-29 11:02:59.977 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-29 11:02:59.980 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-01-29 11:02:59.987 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 10.6407ms
+2025-01-29 11:02:59.993 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 17.7634ms
+2025-01-29 11:03:00.034 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.801ms
+2025-01-29 11:03:00.156 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-01-29 11:03:00.169 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.8696ms
+2025-01-29 18:25:24.809 +00:00 [INF] Now listening on: http://localhost:5037
+2025-01-29 18:25:24.905 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-29 18:25:24.908 +00:00 [INF] Hosting environment: Development
+2025-01-29 18:25:24.911 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-01-29 18:25:25.451 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-01-29 18:25:25.633 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 189.2926ms
+2025-01-29 18:25:25.691 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-29 18:25:25.691 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-01-29 18:25:25.695 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-01-29 18:25:25.706 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 13.9809ms
+2025-01-29 18:25:25.700 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 9.2134ms
+2025-01-29 18:25:25.743 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.7437ms
+2025-01-29 18:25:25.853 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-01-29 18:25:25.867 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.0982ms
+2025-01-29 19:24:57.297 +00:00 [INF] Now listening on: http://localhost:5037
+2025-01-29 19:24:57.538 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-29 19:24:57.543 +00:00 [INF] Hosting environment: Development
+2025-01-29 19:24:57.546 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-01-29 19:24:58.375 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-01-29 19:24:58.969 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 603.7458ms
+2025-01-29 19:24:59.261 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-01-29 19:24:59.261 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-29 19:24:59.261 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-01-29 19:24:59.275 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 16.2714ms
+2025-01-29 19:24:59.286 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 27.8193ms
+2025-01-29 19:24:59.377 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 117.7428ms
+2025-01-29 19:24:59.782 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-01-29 19:24:59.835 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.8377ms
+2025-01-29 19:25:31.438 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/4111222233334444 - null null
+2025-01-29 19:25:31.461 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-01-29 19:25:31.473 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-01-29 19:25:31.554 +00:00 [INF] Route matched with {action = "GetBalance", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBalance(System.String) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-01-29 19:25:32.171 +00:00 [INF] Balance inquiry for CardNumber: 4111********4444
+2025-01-29 19:26:10.597 +00:00 [ERR] Failed executing DbCommand (35,163ms) [Parameters=[@__cardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__cardNumber_0
+2025-01-29 19:26:10.708 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'atmapp.Data.TransactionDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:e90b878c-c1f3-4731-9f55-f174af6ad9c5
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:e90b878c-c1f3-4731-9f55-f174af6ad9c5
+Error Number:-2,State:0,Class:11
+2025-01-29 19:30:03.354 +00:00 [INF] Now listening on: http://localhost:5037
+2025-01-29 19:30:03.454 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-29 19:30:03.456 +00:00 [INF] Hosting environment: Development
+2025-01-29 19:30:03.457 +00:00 [INF] Content root path: C:\Users\daniy\source\repos\atmapp
+2025-01-29 19:30:03.992 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - null null
+2025-01-29 19:30:04.172 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - 200 null text/html;charset=utf-8 188.4735ms
+2025-01-29 19:30:04.211 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-29 19:30:04.211 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.js - null null
+2025-01-29 19:30:04.211 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - null null
+2025-01-29 19:30:04.217 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 8.1062ms
+2025-01-29 19:30:04.220 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.js - 200 null application/javascript;charset=utf-8 9.5677ms
+2025-01-29 19:30:04.256 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.3875ms
+2025-01-29 19:30:04.351 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - null null
+2025-01-29 19:30:04.361 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.3308ms
+2025-01-29 19:30:14.845 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/4111222233334444 - null null
+2025-01-29 19:30:14.870 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-01-29 19:30:14.878 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-01-29 19:30:14.944 +00:00 [INF] Route matched with {action = "GetBalance", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBalance(System.String) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-01-29 19:30:15.408 +00:00 [INF] Balance inquiry for CardNumber: 4111********4444
+2025-01-29 19:30:18.118 +00:00 [INF] Executed DbCommand (153ms) [Parameters=[@__cardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__cardNumber_0
+2025-01-29 19:30:18.337 +00:00 [INF] Balance for Visa CardNumber 4111********4444: 7940
+2025-01-29 19:30:18.360 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 19:30:18.401 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.GetBalance (atmapp) in 3440.737ms
+2025-01-29 19:30:18.408 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-01-29 19:30:18.427 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/4111222233334444 - 200 null application/json; charset=utf-8 3582.5679ms
+2025-01-29 19:31:22.787 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/41112222333344444 - null null
+2025-01-29 19:31:22.803 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-01-29 19:31:22.809 +00:00 [INF] Route matched with {action = "GetBalance", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBalance(System.String) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-01-29 19:31:22.819 +00:00 [INF] Balance inquiry for CardNumber: 4111********4444
+2025-01-29 19:31:22.872 +00:00 [INF] Executed DbCommand (8ms) [Parameters=[@__cardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__cardNumber_0
+2025-01-29 19:31:22.882 +00:00 [WRN] Card not found: 4111********4444
+2025-01-29 19:31:22.886 +00:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 19:31:22.898 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.GetBalance (atmapp) in 82.2204ms
+2025-01-29 19:31:22.901 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-01-29 19:31:22.904 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/41112222333344444 - 404 null application/json; charset=utf-8 116.9573ms
+2025-01-29 19:31:34.585 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/1111222233334444 - null null
+2025-01-29 19:31:34.593 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-01-29 19:31:34.597 +00:00 [INF] Route matched with {action = "GetBalance", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBalance(System.String) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-01-29 19:31:34.612 +00:00 [INF] Balance inquiry for CardNumber: 1111********4444
+2025-01-29 19:31:34.617 +00:00 [WRN] Unsupported card type for CardNumber: 1111********4444
+2025-01-29 19:31:34.621 +00:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 19:31:34.627 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.GetBalance (atmapp) in 24.32ms
+2025-01-29 19:31:34.631 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-01-29 19:31:34.634 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/1111222233334444 - 400 null application/json; charset=utf-8 49.0308ms
+2025-01-29 19:31:43.706 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/11311222233334444 - null null
+2025-01-29 19:31:43.716 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-01-29 19:31:43.719 +00:00 [INF] Route matched with {action = "GetBalance", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBalance(System.String) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-01-29 19:31:43.725 +00:00 [INF] Balance inquiry for CardNumber: 1131********4444
+2025-01-29 19:31:43.729 +00:00 [WRN] Unsupported card type for CardNumber: 1131********4444
+2025-01-29 19:31:43.732 +00:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 19:31:43.737 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.GetBalance (atmapp) in 12.1887ms
+2025-01-29 19:31:43.740 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-01-29 19:31:43.744 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/11311222233334444 - 400 null application/json; charset=utf-8 37.5334ms
+2025-01-29 19:31:53.136 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/441311222233334444 - null null
+2025-01-29 19:31:53.145 +00:00 [INF] Executing endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-01-29 19:31:53.149 +00:00 [INF] Route matched with {action = "GetBalance", controller = "atmAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBalance(System.String) on controller atmapp.Controllers.atmAPIController (atmapp).
+2025-01-29 19:31:53.155 +00:00 [INF] Balance inquiry for CardNumber: 4413********4444
+2025-01-29 19:31:53.352 +00:00 [INF] Executed DbCommand (18ms) [Parameters=[@__cardNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[CardNumber], [v].[Balance], [v].[CardHolderName], [v].[DailyLimit], [v].[DailyWithdrawn], [v].[ExpirationDate], [v].[FailedAttempts], [v].[HashedPIN], [v].[LockoutUntil], [v].[TransactionLimit]
+FROM [VisaCards] AS [v]
+WHERE [v].[CardNumber] = @__cardNumber_0
+2025-01-29 19:31:53.363 +00:00 [WRN] Card not found: 4413********4444
+2025-01-29 19:31:53.366 +00:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 19:31:53.370 +00:00 [INF] Executed action atmapp.Controllers.atmAPIController.GetBalance (atmapp) in 215.9519ms
+2025-01-29 19:31:53.373 +00:00 [INF] Executed endpoint 'atmapp.Controllers.atmAPIController.GetBalance (atmapp)'
+2025-01-29 19:31:53.377 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5037/api/atmAPI/balance/441311222233334444 - 404 null application/json; charset=utf-8 241.7181ms

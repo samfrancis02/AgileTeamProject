@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\daniy\\source\\repos\\atmapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|c:\\users\\daniy\\source\\repos\\atmapp\\controllers\\atmapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|solutionrelative:controllers\\atmapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|c:\\users\\daniy\\source\\repos\\atmapp\\data\\transactiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|solutionrelative:data\\transactiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|c:\\users\\daniy\\source\\repos\\atmapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|c:\\users\\daniy\\source\\repos\\atmapp\\models\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|solutionrelative:models\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|c:\\users\\daniy\\source\\repos\\atmapp\\models\\transactionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|solutionrelative:models\\transactionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|c:\\users\\daniy\\source\\repos\\atmapp\\models\\cardbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2143BFB4-2E93-4C72-BCFD-2BF700060AB4}|atmapp.csproj|solutionrelative:models\\cardbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\source\\repos\\atmapp\\Data\\TransactionDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\TransactionDbContext.cs",
+              "ToolTip": "C:\\Users\\daniy\\source\\repos\\atmapp\\Data\\TransactionDbContext.cs",
+              "RelativeToolTip": "Data\\TransactionDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:36:52.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Results.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\source\\repos\\atmapp\\Models\\Results.cs",
+              "RelativeDocumentMoniker": "Models\\Results.cs",
+              "ToolTip": "C:\\Users\\daniy\\source\\repos\\atmapp\\Models\\Results.cs",
+              "RelativeToolTip": "Models\\Results.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T19:47:31.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransactionResponse.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\source\\repos\\atmapp\\Models\\TransactionResponse.cs",
+              "RelativeDocumentMoniker": "Models\\TransactionResponse.cs",
+              "ToolTip": "C:\\Users\\daniy\\source\\repos\\atmapp\\Models\\TransactionResponse.cs",
+              "RelativeToolTip": "Models\\TransactionResponse.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:45:56.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\source\\repos\\atmapp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\daniy\\source\\repos\\atmapp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T17:49:59.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "atmAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\source\\repos\\atmapp\\Controllers\\atmAPIController.cs",
+              "RelativeDocumentMoniker": "Controllers\\atmAPIController.cs",
+              "ToolTip": "C:\\Users\\daniy\\source\\repos\\atmapp\\Controllers\\atmAPIController.cs",
+              "RelativeToolTip": "Controllers\\atmAPIController.cs",
+              "ViewState": "AgIAAGgBAAAAAAAAAAAowG4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T20:58:36.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CardBase.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\source\\repos\\atmapp\\Models\\CardBase.cs",
+              "RelativeDocumentMoniker": "Models\\CardBase.cs",
+              "ToolTip": "C:\\Users\\daniy\\source\\repos\\atmapp\\Models\\CardBase.cs",
+              "RelativeToolTip": "Models\\CardBase.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T19:06:13.854Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
