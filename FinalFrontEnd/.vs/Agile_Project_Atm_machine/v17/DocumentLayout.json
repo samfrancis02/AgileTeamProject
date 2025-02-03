@@ -1,0 +1,566 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|c:\\users\\daniy\\downloads\\agile_project_atm_machine\\agile_project_atm_machine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\pinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\pinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|c:\\users\\daniy\\downloads\\agile_project_atm_machine\\agile_project_atm_machine\\receiptquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\receiptquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|c:\\users\\daniy\\downloads\\agile_project_atm_machine\\agile_project_atm_machine\\receiptquestion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\receiptquestion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|c:\\users\\daniy\\downloads\\agile_project_atm_machine\\agile_project_atm_machine\\pinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\pinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|c:\\users\\daniy\\downloads\\agile_project_atm_machine\\agile_project_atm_machine\\balanceviewcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\balanceviewcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|c:\\users\\daniy\\downloads\\agile_project_atm_machine\\agile_project_atm_machine\\balanceviewcs.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\balanceviewcs.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\balanceviewcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\balanceviewcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\receiptquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\receiptquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\anotheramount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\anotheramount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|c:\\users\\daniy\\downloads\\agile_project_atm_machine\\agile_project_atm_machine\\fastcash.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\fastcash.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\fastcash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\fastcash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\acceptamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\acceptamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|c:\\users\\daniy\\downloads\\agile_project_atm_machine\\agile_project_atm_machine\\fastcash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\fastcash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\balanceaccountselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\balanceaccountselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\askanyotheraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\askanyotheraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\acknowledgment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\acknowledgment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\takeyourcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\takeyourcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\thankyou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\thankyou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\takemoneyandreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\takemoneyandreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\accountselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\accountselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\noreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\noreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|c:\\users\\daniy\\downloads\\agile_project_atm_machine\\agile_project_atm_machine\\vieworprintbalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\vieworprintbalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|c:\\users\\daniy\\downloads\\agile_project_atm_machine\\agile_project_atm_machine\\vieworprintbalance.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\vieworprintbalance.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\vieworprintbalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\vieworprintbalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\balanceprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\balanceprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|c:\\users\\daniy\\downloads\\agile_project_atm_machine\\agile_project_atm_machine\\transactionmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\transactionmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\transactionmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\transactionmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\transactioncancelled.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\transactioncancelled.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\agile_project_atm_machine\\insertcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\insertcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|c:\\users\\daniy\\downloads\\agile_project_atm_machine\\agile_project_atm_machine\\balanceaccountselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\balanceaccountselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|c:\\users\\daniy\\downloads\\agile_project_atm_machine\\agile_project_atm_machine\\balanceaccountselection.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\balanceaccountselection.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|c:\\users\\daniy\\downloads\\agile_project_atm_machine\\agile_project_atm_machine\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|c:\\users\\daniy\\downloads\\agile_project_atm_machine\\agile_project_atm_machine\\insertcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08600F1-1FFA-40FD-B9CC-CF6F1BEECD7A}|Agile_Project_Atm_machine\\Agile_Project_Atm_machine.csproj|solutionrelative:agile_project_atm_machine\\insertcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "balanceViewcs.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\balanceViewcs.Designer.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\balanceViewcs.Designer.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\balanceViewcs.Designer.cs",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\balanceViewcs.Designer.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAhwCIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:27:16.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "balanceViewcs.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\balanceViewcs.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\balanceViewcs.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\balanceViewcs.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\balanceViewcs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:42:17.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReceiptQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\ReceiptQuestion.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\ReceiptQuestion.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\ReceiptQuestion.cs",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\ReceiptQuestion.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAA9wHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T00:57:42.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PinForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\PinForm.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\PinForm.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\PinForm.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\PinForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T21:44:32.829Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PinForm.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\PinForm.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\PinForm.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\PinForm.cs",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\PinForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T17:03:33.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\Program.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\Program.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\Program.cs",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T13:13:18.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "balanceViewcs.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\balanceViewcs.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\balanceViewcs.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\balanceViewcs.cs",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\balanceViewcs.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:23:03.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AnotherAmount.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\AnotherAmount.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\AnotherAmount.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\AnotherAmount.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\AnotherAmount.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T21:35:41.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReceiptQuestion.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\ReceiptQuestion.Designer.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\ReceiptQuestion.Designer.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\ReceiptQuestion.Designer.cs",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\ReceiptQuestion.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T00:58:37.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FastCash.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\FastCash.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\FastCash.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\FastCash.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\FastCash.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:59:34.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FastCash.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\FastCash.Designer.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\FastCash.Designer.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\FastCash.Designer.cs",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\FastCash.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T22:30:04.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReceiptQuestion.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\ReceiptQuestion.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\ReceiptQuestion.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\ReceiptQuestion.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\ReceiptQuestion.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T23:34:02.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "takeMoneyAndReceipt.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\takeMoneyAndReceipt.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\takeMoneyAndReceipt.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\takeMoneyAndReceipt.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\takeMoneyAndReceipt.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T23:34:15.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "thankYou.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\thankYou.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\thankYou.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\thankYou.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\thankYou.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:00:26.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FastCash.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\FastCash.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\FastCash.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\FastCash.cs",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\FastCash.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T22:30:24.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AcceptAmount.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\AcceptAmount.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\AcceptAmount.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\AcceptAmount.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\AcceptAmount.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T16:44:24.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "balanceAccountSelection.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\balanceAccountSelection.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\balanceAccountSelection.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\balanceAccountSelection.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\balanceAccountSelection.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:42:27.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Acknowledgment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\Acknowledgment.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\Acknowledgment.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\Acknowledgment.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\Acknowledgment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:59:57.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "takeYourCard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\takeYourCard.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\takeYourCard.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\takeYourCard.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\takeYourCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T23:34:35.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "askAnyOtherAction.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\askAnyOtherAction.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\askAnyOtherAction.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\askAnyOtherAction.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\askAnyOtherAction.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:59:45.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AccountSelection.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\AccountSelection.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\AccountSelection.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\AccountSelection.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\AccountSelection.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:00:03.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NoReceipt.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\NoReceipt.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\NoReceipt.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\NoReceipt.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\NoReceipt.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:59:13.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "viewOrPrintBalance.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\viewOrPrintBalance.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\viewOrPrintBalance.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\viewOrPrintBalance.cs",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\viewOrPrintBalance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T17:35:17.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "viewOrPrintBalance.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\viewOrPrintBalance.Designer.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\viewOrPrintBalance.Designer.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\viewOrPrintBalance.Designer.cs",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\viewOrPrintBalance.Designer.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T17:48:38.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "balancePrint.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\balancePrint.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\balancePrint.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\balancePrint.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\balancePrint.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:42:07.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "viewOrPrintBalance.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\viewOrPrintBalance.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\viewOrPrintBalance.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\viewOrPrintBalance.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\viewOrPrintBalance.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:06:24.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TransactionMenu.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\TransactionMenu.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\TransactionMenu.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\TransactionMenu.cs",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\TransactionMenu.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:04:34.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TransactionMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\TransactionMenu.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\TransactionMenu.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\TransactionMenu.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\TransactionMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:00:17.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "transactionCancelled.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\transactionCancelled.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\transactionCancelled.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\transactionCancelled.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\transactionCancelled.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:00:19.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "insertCard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\insertCard.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\insertCard.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\insertCard.cs [Design]",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\insertCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T16:45:22.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "balanceAccountSelection.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\balanceAccountSelection.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\balanceAccountSelection.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\balanceAccountSelection.cs",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\balanceAccountSelection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:45:51.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "balanceAccountSelection.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\balanceAccountSelection.Designer.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\balanceAccountSelection.Designer.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\balanceAccountSelection.Designer.cs",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\balanceAccountSelection.Designer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T17:47:41.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ApiHelper.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\ApiHelper.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\ApiHelper.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\ApiHelper.cs",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\ApiHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T13:12:18.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "insertCard.cs",
+              "DocumentMoniker": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\insertCard.cs",
+              "RelativeDocumentMoniker": "Agile_Project_Atm_machine\\insertCard.cs",
+              "ToolTip": "C:\\Users\\daniy\\Downloads\\Agile_Project_Atm_machine\\Agile_Project_Atm_machine\\insertCard.cs",
+              "RelativeToolTip": "Agile_Project_Atm_machine\\insertCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T16:47:42.794Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

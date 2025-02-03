@@ -1,0 +1,39 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Agile_Project_Atm_machine
+{
+    public partial class Acknowledgment : Form
+    {
+        public Acknowledgment()
+        {
+            InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DECLINE_Click(object sender, EventArgs e)
+        {
+            transactionCancelled transactionCancelled = new transactionCancelled();
+            transactionCancelled.Show();
+            this.Close();
+        }
+
+        private void YESCONFIRM_Click(object sender, EventArgs e)
+        {
+            AccountSelection   accountSelection = new AccountSelection();
+            accountSelection.Show();
+            this.Hide();
+        }
+    }
+}
